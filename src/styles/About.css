@@ -1,0 +1,46 @@
+
+.profilePic {
+    width:25%;
+    border-radius:50%;
+}
+
+.frame {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding: 2rem;
+}
+
+.aboutHeader {
+    padding-top:2rem;
+}
+
+.aboutP {
+    width:60%;
+    margin: 1rem;
+}
+
+.skillTitle {
+    text-align:center;
+    padding-top:1rem;
+}
+
+.skill {
+    margin:1rem;
+    padding:8px;
+    width:100px;
+    text-align:center;
+    background-color:rgb(1, 70, 67);
+    border-radius:30px;
+    color:white;
+}
+
+.courses li::before {
+    content: "\2022";   
+    color: rgb(1, 70, 67); 
+    font-weight: bold;
+    display: inline-block; 
+    width: 1rem; 
+    margin-left: -1em; 
+}
+

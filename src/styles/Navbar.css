@@ -1,0 +1,92 @@
+.header{
+    display:flex;
+    /* justify-content puts space between the title and navlinks */
+    justify-content: space-between;
+    align-items: center;
+    /* padding = 1 on top bottom left right */
+    padding: 2rem 1rem 1rem 1rem;
+    background-color: rgba(0, 45, 49, 0.05);
+}
+
+#logo {
+    padding-left:1rem;
+}
+
+#dropdown-basic-button {
+    background:none;
+    border:none;
+    color:rgb(1, 70, 67);
+    font-size: 1.2rem;
+    font-weight:500;
+    padding: 0 1rem;
+}
+
+.nav-menu{
+    display: flex;
+}
+
+.nav-menu li {
+    /* top and bottom padding = 0, left and right padding = 1 */
+    padding: 0 1rem;
+}
+
+.nav-menu li a{
+    font-size: 1.2rem;
+    font-weight:500;
+}
+
+#resume_button{
+    color:rgb(255, 255, 255);
+    background:rgb(1, 70, 67);
+    padding:20px;
+    border-radius: 10px;
+}
+
+/* make hbg menu invisible until we make screen smaller */
+.hamburger {
+    display: none;
+}
+
+/* navbar items collapse to one column when width is under 1040px */
+@media screen and (max-width: 1040px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* 100% of the viewport height */
+        height: 100vh;
+        background: rgba(0,0,0,0.9);
+        position: absolute;
+        top: -100%;
+        /* moves menu completely off screen until hamburger menu is opened */
+        left: 0px;
+        /* z-index = stack order*/
+        z-index: 0;
+        transition: 0.3s;
+    }
+
+    /* Fit menu back on screen when hamburger menu is opened */
+    .nav-menu.active {
+        top: 0;
+    }
+
+    .nav-menu li {
+        padding: 1rem;
+        margin:0.5rem;
+        border-radius:10px;
+    }
+
+    .nav-item {
+        background-color:white;
+    }
+
+    .nav-menu li a{
+        font-size: 2rem;
+    }
+
+    .hamburger {
+        display: initial;
+        z-index:1;
+    }
+}
