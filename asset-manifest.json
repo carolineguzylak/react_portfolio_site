@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/react_portfolio_site/static/css/main.073c9b0a.css",
-    "main.js": "/react_portfolio_site/static/js/main.01fb2b4e.js",
-    "static/js/787.ce9a24bf.chunk.js": "/react_portfolio_site/static/js/787.ce9a24bf.chunk.js",
-    "static/media/logo.svg": "/react_portfolio_site/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/react_portfolio_site/static/css/main.49d2a096.css",
+    "main.js": "/react_portfolio_site/static/js/main.7201b4a0.js",
+    "static/media/profile.jpg": "/react_portfolio_site/static/media/profile.2a340742fd3736af48a8.jpg",
+    "static/media/orchestrate.png": "/react_portfolio_site/static/media/orchestrate.ae3928412530393ca5fa.png",
+    "static/media/insta.png": "/react_portfolio_site/static/media/insta.c634af30949ec69e8862.png",
+    "static/media/zotdiet.png": "/react_portfolio_site/static/media/zotdiet.0124e68d0210a69e1f4d.png",
+    "static/media/hero.jpg": "/react_portfolio_site/static/media/hero.a5ebb8fa7c05886138d3.jpg",
+    "static/media/zothacks.png": "/react_portfolio_site/static/media/zothacks.e0f4250b68aa52b5304a.png",
     "index.html": "/react_portfolio_site/index.html",
-    "main.073c9b0a.css.map": "/react_portfolio_site/static/css/main.073c9b0a.css.map",
-    "main.01fb2b4e.js.map": "/react_portfolio_site/static/js/main.01fb2b4e.js.map",
-    "787.ce9a24bf.chunk.js.map": "/react_portfolio_site/static/js/787.ce9a24bf.chunk.js.map"
+    "main.49d2a096.css.map": "/react_portfolio_site/static/css/main.49d2a096.css.map",
+    "main.7201b4a0.js.map": "/react_portfolio_site/static/js/main.7201b4a0.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.01fb2b4e.js"
+    "static/css/main.49d2a096.css",
+    "static/js/main.7201b4a0.js"
   ]
 }
