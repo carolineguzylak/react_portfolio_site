@@ -21,10 +21,9 @@ const Navbar = () => {
                 </li>
                 <li className='nav-item'>
                     <DropdownButton id="dropdown-basic-button" title="Projects">
-                        {/* <Dropdown.Item href="/project-orchestrate">Orchestrate</Dropdown.Item> */}
                         <Dropdown.Item><Link to="/project-orchestrate">Orchestrate</Link></Dropdown.Item>
-                        <Dropdown.Item href="/project-zotdiet">Zotdiet</Dropdown.Item>
-                        <Dropdown.Item href="/project-insta">Instagram Redesign</Dropdown.Item>
+                        <Dropdown.Item><Link to="/project-zotdiet">ZotDiet</Link></Dropdown.Item>
+                        <Dropdown.Item><Link to="/project-insta">Instagram Redesign</Link></Dropdown.Item>
                     </DropdownButton>
                 </li>
                 <li className='nav-item'>
