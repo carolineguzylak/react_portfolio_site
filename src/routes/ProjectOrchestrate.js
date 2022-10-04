@@ -10,7 +10,7 @@ const ProjectOrchestrate = () => {
         <Navbar />
 
         <div class='projectWrapper'>
-            <img className='headerPic' src={orchestrate}></img>
+            <img className='headerPic' alt="iPhone mockups" src={orchestrate}></img>
             <h1 class='projectHeader'>Orchestrate</h1>
             <h4 className='projectDescription'>Orchestrate is a concert socialization app that provides concert-goers with a means to discover shows in their area, find friends to go with, plan event itineraries with a group, and arrange ride shares.</h4>
             <div className='projectDetails'>
