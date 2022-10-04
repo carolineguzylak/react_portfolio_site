@@ -28,7 +28,7 @@ const ProjectZotdiet = () => {
             <h2 class='projectHeader'>Presentation</h2>
             <div className='presentation'>
                 <iframe title="Zotdiet Presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vQBlgVREqmFQW9uSBMCqe6iebJYgIgpQor23lpMPw7ghZs3iGA6O1erfEZdIs3OoNQd1fdogJv3XPXB/embed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-            </div>
+            </div> 
         </div>
         <Footer />
     </div>
