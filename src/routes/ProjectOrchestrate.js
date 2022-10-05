@@ -12,8 +12,8 @@ const ProjectOrchestrate = () => {
         <div class='projectWrapper'>
             <img className='headerPic' alt="iPhone mockups" src={orchestrate}></img>
             <h1 class='projectHeader'>Orchestrate</h1>
-            <h4 className='projectDescription'>Orchestrate is a concert socialization app that provides concert-goers with a means to discover shows in their area, find friends to go with, plan event itineraries with a group, and arrange ride shares.</h4>
-            <div className='projectDetails'>
+            <div className='projectDescription'>
+                <p>Orchestrate is a concert socialization app that provides concert-goers with a means to discover shows in their area, find friends to go with, plan event itineraries with a group, and arrange ride shares.</p>
                 <p>My role: UI/UX designer and researcher (team of 5)</p>
                 <p>Time: 10 weeks</p>
             </div>

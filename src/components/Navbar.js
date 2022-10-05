@@ -20,7 +20,7 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                 </li>
                 <li className='nav-item'>
-                    <DropdownButton id="dropdown-basic-button" title="Projects">
+                    <DropdownButton id="projects-button" title="Projects">
                         <Dropdown.Item><Link to="/project-orchestrate">Orchestrate</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-zotdiet">ZotDiet</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-insta">Instagram Redesign</Link></Dropdown.Item>
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link to="/contact">Connect!</Link>
                 </li>
                 <li>
-                    <a id='resume_button' href="https://docs.google.com/document/d/1FJyHU0DuxtIPtWi8fSeAz8V-j2ziu2u-XXMmgaHKq8M/edit?usp=sharing">Resume</a>
+                    <a className="nav-item" href="https://docs.google.com/document/d/1FJyHU0DuxtIPtWi8fSeAz8V-j2ziu2u-XXMmgaHKq8M/edit?usp=sharing">Resume</a>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

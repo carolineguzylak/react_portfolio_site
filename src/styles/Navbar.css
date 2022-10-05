@@ -12,13 +12,14 @@
     padding-left:1rem;
 }
 
-#dropdown-basic-button {
+#projects-button {
     background:none;
     border:none;
     color:rgb(1, 70, 67);
     font-size: 1.2rem;
     font-weight:500;
     padding: 0 1rem;
+    min-width:50px;
 }
 
 .nav-menu{
@@ -28,6 +29,7 @@
 .nav-menu li {
     /* top and bottom padding = 0, left and right padding = 1 */
     padding: 0 1rem;
+
 }
 
 .nav-menu li a{
@@ -62,7 +64,7 @@
         /* moves menu completely off screen until hamburger menu is opened */
         left: 0px;
         /* z-index = stack order*/
-        z-index: 0;
+        z-index: 1;
         transition: 0.3s;
     }
 
@@ -75,14 +77,21 @@
         padding: 1rem;
         margin:0.5rem;
         border-radius:10px;
+        text-align:center;
+        background-color:white;
     }
 
     .nav-item {
         background-color:white;
+        min-width: 100px;
     }
 
     .nav-menu li a{
-        font-size: 2rem;
+        font-size: 1rem;
+    }
+
+    #projects-button {
+        font-size: 1rem;
     }
 
     .hamburger {

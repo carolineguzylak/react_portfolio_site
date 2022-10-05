@@ -12,10 +12,10 @@ const ProjectOrchestrate = () => {
         <div class='projectWrapper'>
             <img className='headerPic' alt="iPhone mockups" src={insta}></img>
             <h1 class='projectHeader'>Instagram Redesign</h1>
-            <h4 className='projectDescription'>Performed a research study on the impact social media has on the mental health of university students with a team of 4 researchers. Redesigned a popular social media app to better support the mental health of its users based upon our research findings. </h4>
-            <div className='projectDetails'>
+            <div className='projectDescription'>
+                <p>Performed a research study on the impact social media has on the mental health of university students with a team of 4 researchers. Redesigned a popular social media app to better support the mental health of its users based upon our research findings.</p>
                 <p>My role: UI/UX designer and researcher (team of 5)</p>
-                <p>Time: 10 weeks</p>
+                <p>Time: 10 weeks</p> 
             </div>
             <h2 class='projectHeader'>App Demo</h2>
             <div className='demo'>
