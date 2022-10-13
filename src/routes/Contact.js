@@ -15,8 +15,8 @@ const Contact = () => {
 
                     <p className={styles.contactP}><b>Email:</b> carolineguzylak@gmail.com  <button id={styles.clipboard} onClick={() => {navigator.clipboard.writeText("carolineguzylak@gmail.com")}}><FaRegClipboard /></button> </p>
                     
-                    <a className={styles.contactLink} href="http://www.linkedin.com/in/cguzylak">Linkedin</a>
-                    <a  className={styles.contactLink} href="https://github.com/carolineguzylak">Github</a>
+                    <div><a className={styles.contactLink} href="http://www.linkedin.com/in/cguzylak">Linkedin</a>
+                    <a  className={styles.contactLink} href="https://github.com/carolineguzylak">Github</a></div>
                 </div>
             </div>
 
