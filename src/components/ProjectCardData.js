@@ -26,13 +26,13 @@ const ProjectCardData = [
     {
         imgsrc: zothacks,
         title: '"We have food at home!" - A recipe generator',
-        text: "Zothacks 2020 Hacker's Choice award winner",
+        text: "Zothacks 2020 Hacker's Choice award winner (Page under construction)",
         pagelink: '/project-zothacks'
     },
     {
         imgsrc: icssc,
         title: 'Ongoing: UCI ICSSC website redesign',
-        text: 'ICSSC redesign description',
+        text: '(Page under construction)',
         pagelink: '/project-icssc'
     }
 ];
