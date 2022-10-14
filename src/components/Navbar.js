@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 import {FaBars, FaTimes} from 'react-icons/fa'
 
 const Navbar = () => {
-
+ 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
 
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <Link to="/contact">Connect!</Link>
                 </li>
                 <li>
-                    <a className="nav-item" href="https://docs.google.com/document/d/1FJyHU0DuxtIPtWi8fSeAz8V-j2ziu2u-XXMmgaHKq8M/edit?usp=sharing">Resume</a>
+                    <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1FJyHU0DuxtIPtWi8fSeAz8V-j2ziu2u-XXMmgaHKq8M/edit?usp=sharing">Resume</a>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>

@@ -3,7 +3,7 @@
     width:25%;
     border-radius:50%;
 }
-
+ 
 .frame {
     display:flex;
     flex-direction:column;

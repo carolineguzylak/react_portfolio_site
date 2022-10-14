@@ -4,6 +4,7 @@ import React from 'react'
 import Aos from "aos";
 import "aos/dist/aos.css"
 import { useEffect } from 'react';
+import {Link} from 'react-router-dom'
 
 const ProjectCard = (props) => {
 
@@ -18,7 +19,8 @@ const ProjectCard = (props) => {
                 <h2 className="project-title">{props.title}</h2>
                 <p className="project-description">{props.text}</p>
                 <br></br>
-                <a href={props.pagelink} className="learnButton">View case study</a>
+                <Link to={props.pagelink} className="learnButton">View case study</Link>
+                {/* <a href={props.pagelink} className="learnButton">View case study</a> */}
             </div>
         </div>
      );

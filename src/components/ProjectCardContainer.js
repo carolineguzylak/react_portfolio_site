@@ -1,4 +1,4 @@
-import './ProjectCardContainerStyles.css'
+import '../styles/ProjectCardContainerStyles.css'
 import ProjectCardData from './ProjectCardData';
 import ProjectCard from './ProjectCard';
 import React from 'react'

@@ -57,7 +57,7 @@
         align-items: center;
         width: 100%;
         /* 100% of the viewport height */
-        height: 100vh;
+        height: 100vh; 
         background: rgba(0,0,0,0.9);
         position: absolute;
         top: -100%;

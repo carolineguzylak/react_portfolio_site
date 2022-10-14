@@ -5,7 +5,7 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <p>Site created by Caroline Guzylak</p>
+            <p>Site created in React by Caroline Guzylak</p>
         </footer>
     );
 };
