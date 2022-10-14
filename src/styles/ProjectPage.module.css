@@ -113,8 +113,8 @@ h1, h2, h3 {
     p{font-size:18px;}
 }
 
-@media screen and (min-width: 1540px){
+/* @media screen and (min-width: 1540px){
     .projectDescription{
         color:red;
     }
-}
+} */

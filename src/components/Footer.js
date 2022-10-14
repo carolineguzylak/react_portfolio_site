@@ -5,7 +5,8 @@ const Footer = () => {
 
     return (
         <footer className="footer">
-            <p>Site created in React by Caroline Guzylak</p>
+            <h4>Site created in React by Caroline Guzylak</h4>
+            <p>Recipe Generator logo credit to Zothacks 2020, ICSSC Redesign logo credit to UCI ICSSC</p>
         </footer>
     );
 };
