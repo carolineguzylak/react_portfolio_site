@@ -1,4 +1,4 @@
-import '../styles/ProjectCard.css'
+import '../styles/ProjectCard.css';
 import React from 'react'
 
 import Aos from "aos";

@@ -5,7 +5,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    text-align:center;
     background: white;
     padding: 1.2rem 1rem;
     border-radius: 20px;
@@ -65,6 +64,16 @@
         background: rgba(255, 255, 255, 0.4);
         padding: 1.2rem 1rem;
         border-radius: 20px;
+    }
+
+    .project-description {
+        font-size:14px;
+    }
+
+    .project-card img {
+        max-width:90%;
+        margin:2rem; 
+        border-radius: 0;
     }
 
     br {

@@ -6,19 +6,19 @@ const ProjectCardData = [
     {
         imgsrc: orchestrate,
         title: 'Orchestrate',
-        text: 'Design Project: A concert socialization app',
+        text: 'A concert planning and socialization app: Find friends, rideshares, and create concert itineraries',
         pagelink: '/project-orchestrate'
     },
     {
         imgsrc: zotdiet,
         title: 'ZotDiet',
-        text: 'Design Project: Aiding UCI students with dietary restrictions',
+        text: 'Supporting UCI students with dietary restrictions: Menu filters and food label scanner',
         pagelink: '/project-zotdiet'
     },
     {
         imgsrc: insta,
         title: 'Instagram redesign for mental health',
-        text: 'Design Project: Better social media for better mental health',
+        text: 'Redesigning Instagram to better support the mental health of its users',
         pagelink: '/project-insta'
     }
 ];

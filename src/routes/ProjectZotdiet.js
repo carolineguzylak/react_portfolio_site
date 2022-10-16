@@ -96,7 +96,7 @@ const ProjectZotdiet = () => {
                 Sticky notes contain quotes by participants and are placed into categories. From these categories,
                 we condensed the struggles of our participants into 3 main themes.</p>
                 <div className={styles.imgWrapper}>
-                    <img alt="Interview data affinity diagram" src={affinity}></img>
+                    <img className={styles.imgPrototype} alt="Interview data affinity diagram" src={affinity}></img>
                 </div>
             </div>
 
