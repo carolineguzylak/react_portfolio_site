@@ -25,14 +25,23 @@ const ProjectZotdiet = () => {
         <div class={styles.projectWrapper}>
             <img className={styles.headerPic} alt="iPhone mockups" src={zotdiet}></img>
             <h1>Zotdiet</h1>
+            <div>
+                <a href="https://www.figma.com/proto/E5bKgebcACwujnaPlRT6oh/132-Prototype?page-id=344%3A2479&node-id=344%3A2480&starting-point-node-id=344%3A2480" className={styles.button}>Prototype Demo</a>
+                <a href="#presentation" className={styles.button}>Presentation</a>
+            </div>
             <div className={styles.projectDescription}>
                 <p>ZotDiet is an application designed for UCI students who live with dietary restrictions. Our research on these students indicated that they were in need of a solution to help them find suitable food either on or near campus during their time at UCI. This solution is ZotDiet. 
-                    The application allows students to:
-                    - View daily dining hall menus and nearby restaurant menus while automatically highlighting menu items that fit with the user's diet. 
-                    - Scan food items at a grocery story. The app will immediately notify them if the item fits their diet. 
-                    - Save favorite food items and restaurants.</p>
+                    The application allows students to: </p>
+                    <div className={styles.listWrapper}>
+                        <ul className={styles.projectUl}>
+                            <li>View daily dining hall menus and nearby restaurant menus while automatically highlighting menu items that fit with the user's diet. </li>
+                            <li>Scan food items at a grocery story. The app will immediately notify them if the item fits their diet.</li>
+                            <li>Save favorite food items and restaurants.</li>
+                        </ul>
+                    </div>  
                 <p><b>My role:</b> UI/UX designer and researcher (team of 5). I contributed to every part of the project, including market research, user interviews, ideation, prototyping, and user testing.</p>
                 <p><b>Time:</b> 10 weeks</p>
+                <p>This project was created for Informatics 132 at UC Irvine, a project course on Human-Computer Interaction, where students use HCI principles to complete design projects.</p>
             </div>
 
             <div className={styles.projectDescription}>
@@ -42,30 +51,34 @@ const ProjectZotdiet = () => {
 
             <div className={styles.projectDescription}>
                 <h2>Design Question</h2>
-                <p>How can UCI students who follow specific dietary restrictions gain better access and insight to food products and services at UCI?</p>
+                <p><b>How can UCI students who follow specific dietary restrictions gain better access and insight to food products and services at UCI?</b></p>
 
-                <h2>Our Research Questions</h2>
-                <ol>
-                    <li>Do UCI students struggle to find a place to eat or grocery shop because of their dietary restrictions?</li>
-                    <li>How do UCI students grocery shop according to their dietary restrictions?</li>
-                    <li>What kinds of dietary restrictions do UCI students have?</li>
-                    <li>What challenges do UCI students face when trying to adhere to their specific diets?</li>
-                </ol>
+                <h2>Research Questions</h2>
+                <div className={styles.listWrapper}>
+                    <ol>
+                        <li>Do UCI students struggle to find a place to eat or grocery shop because of their dietary restrictions?</li>
+                        <li>How do UCI students grocery shop according to their dietary restrictions?</li>
+                        <li>What kinds of dietary restrictions do UCI students have?</li>
+                        <li>What challenges do UCI students face when trying to adhere to their specific diets?</li>
+                    </ol>
+                </div>
             </div>
 
             <div className={styles.projectDescription}>
                 <h2>Our Research Methods</h2>
 
-                <h3>Participants</h3>
+                <h4>Participants</h4>
                 <p>Our team decided to conduct interview calls with our participants in order to gain deeper insight into their lives that would not be possible without having in-depth discussions. In total, we interviewed 4 participants with different kinds of dietary restrictions:</p>
-                <ul className={styles.projectUl}>
-                    <li>Halal Diet (Participant 1)</li>
-                    <li>Gluten Intolerance & Lactose Sensitivity (Participant 2)</li>
-                    <li>Peanuts & Other Nuts Allergy (Participant 3)</li>
-                    <li>Vegetarian (Participant 4)</li>
-                </ul>
+                <div className={styles.listWrapper}>
+                    <ul className={styles.projectUl}>
+                        <li>Halal Diet (Participant 1)</li>
+                        <li>Gluten Intolerance & Lactose Sensitivity (Participant 2)</li>
+                        <li>Peanuts & Other Nuts Allergy (Participant 3)</li>
+                        <li>Vegetarian (Participant 4)</li>
+                    </ul>
+                </div>
 
-                <h3>Data Collection</h3>
+                <h4>Data Collection</h4>
                 <p>All four user interview calls were recorded and transcribed either by hand or by Zoom’s cloud recording transcription software. Each participant was recruited from UCI and was required to sign a consent form to be interviewed. </p> 
             </div>
 
@@ -79,7 +92,9 @@ const ProjectZotdiet = () => {
 
             <div className={styles.projectDescription}>
                 <h2>Affinity Diagram of Interview Data</h2>
-                <p className={styles.subtext}>We created an affinity diagram in order to organize our data points before condensing them into 3 main themes.</p>
+                <p className={styles.subtext}>We created an affinity diagram in order to organize our data points.
+                Sticky notes contain quotes by participants and are placed into categories. From these categories,
+                we condensed the struggles of our participants into 3 main themes.</p>
                 <div className={styles.imgWrapper}>
                     <img alt="Interview data affinity diagram" src={affinity}></img>
                 </div>
@@ -96,14 +111,19 @@ const ProjectZotdiet = () => {
                     </ul>
                 </div>
 
-                <p>Our research has revealed new insights into the experiences of students with dietary restrictions at UCI that we can use to answer our design question. We discovered that participants shared pain points regarding their dietary experience in three key areas: awareness, accessibility and social settings. Existing solutions are limited in that they are not generalized and cater to specific communities that live with dietary restrictions. Because our research included a variety of dietary restrictions at UCI, we can broaden the scope of existing solutions to include a wide range of dietary restrictions and accommodate the UCI area specifically.</p>
+                <p>Our research has revealed new insights into the experiences of students with dietary restrictions at
+                     UCI that we can use to answer our design question. 
+                    We discovered that participants shared pain points regarding their dietary experience in three key areas: 
+                    <b>awareness, accessibility and social settings.</b> Existing solutions are insufficient because they 
+                    cater to specific dietary restrictions, and leave others out. We will accomodate a wide variety of 
+                    diets the UCI area specifically.</p>
 
                 <a className={styles.subtext} href="https://docs.google.com/document/d/1H4d6S1Coa8gITBoI7xTTienTpeXJciVcWl_zIsLdXEM/edit?usp=sharing">Full interview data encoding</a>
             </div>
 
             <div className={styles.projectDescription}>
                 <h2>The Prototype</h2>
-                <p>Based on the needs of our users determined by our interviews, we decided that the three main functions of our prototype would be:</p>
+                <p className={styles.subtext}>Based on the needs of our users determined by our interviews, we decided that the three main functions of our prototype would be:</p>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         <li>Viewing nearby restaraunt options</li>
@@ -124,20 +144,26 @@ const ProjectZotdiet = () => {
                 <div className={styles.subsection}>
                     <h3>Low fidelity prototype created for user testing</h3>
 
-                    <div className={styles.imgWrapper}>
-                        <img  alt="low fidelity food scanner screens" src={foodScannerLofi}></img>
+                    <div className={styles.subsection}>
+                        <div className={styles.imgWrapper}>
+                            <img  alt="low fidelity food scanner screens" src={foodScannerLofi}></img>
+                        </div>
+                        <p className={styles.subtext}>Food scanner</p>
                     </div>
-                    <p className={styles.subtext}>Food scanner</p>
 
-                    <div className={styles.imgWrapper}>
-                        <img  alt="low fidelity restaurant search screens" src={restaurantLofi}></img>
-                    </div>
-                    <p className={styles.subtext}>Restaurant search</p>
+                    <div className={styles.subsection}>
+                        <div className={styles.imgWrapper}>
+                            <img  alt="low fidelity restaurant search screens" src={restaurantLofi}></img>
+                        </div>
+                        <p className={styles.subtext}>Restaurant search</p>
+                    </div>  
 
-                    <div className={styles.imgWrapper}>
-                        <img  alt="low fidelity dining hall screens" src={diningHallLofi}></img>
+                    <div className={styles.subsection}>
+                        <div className={styles.imgWrapper}>
+                            <img  alt="low fidelity dining hall screens" src={diningHallLofi}></img>
+                        </div>
+                        <p className={styles.subtext}>UCI dining hall screens</p>
                     </div>
-                    <p className={styles.subtext}>UCI dining hall screens</p>
 
                 </div>
 
@@ -155,35 +181,42 @@ const ProjectZotdiet = () => {
                 </ol>
 
                 <h3>Key Revisions</h3>
-                <p>Severe Issue: Some participants had trouble navigating to the Dining Hall section of the app, a main feature. To make this option more apparent, we added a large button to the 'Explore more options' section.</p>
-                <img  alt="revision 1" src={revision1}></img>
-                <p>Left: before, Right: revised</p>
+                <p><b>Severe Issue:</b> Some participants had trouble navigating to the Dining Hall section of the app, a main feature. To make this option more apparent, we added a large button to the 'Explore more options' section.</p>
+                
+                <div className={styles.imgWrapper}>
+                    <img  alt="revision 1" src={revision1}></img>
+                </div>
+                <p className={styles.subtext}>Left: before, Right: revised</p>
 
-                <p>Minor Issue: Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
-                <img  alt="revision 2" src={revision2}></img>
-                <p>Left: before, Right: revised</p>
+                <p><b>Minor Issue:</b> Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
+                <div className={styles.imgWrapper}>
+                    <img  alt="revision 2" src={revision2}></img>
+                </div>
+                <p className={styles.subtext}>Left: before, Right: revised</p>
             </div>
 
             <div className={styles.projectDescription}>
                 <h2>Final Prototype</h2>
 
-                <img  alt="hifi food scanner screens" src={foodScannerHifi}></img>
-                <p>Food scanner</p>
+                <div className={styles.imgWrapper}>
+                    <img  alt="hifi food scanner screens" src={foodScannerHifi}></img>
+                </div>  
+                <p className={styles.subtext}>Food scanner</p>
 
-                <img  alt="hifi restaurant search screens" src={restaurantHifi}></img>
-                <p>Restaurant search</p>
+                <div className={styles.imgWrapper}>
+                    <img  alt="hifi restaurant search screens" src={restaurantHifi}></img>
+                </div>
+                <p className={styles.subtext}>Restaurant search</p>
 
-                <img  alt="hifi dining hall menu screens" src={diningHallHifi}></img>
-                <p>Dining hall menu</p>
+                <div className={styles.imgWrapper}>
+                    <img  alt="hifi dining hall menu screens" src={diningHallHifi}></img>
+                </div>  
+                <p className={styles.subtext}>Dining hall menu</p>
             </div>
 
 
-            <h2>App Demo</h2>
-            <div className={styles.demo}>
-                <iframe title="figma prototype" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FE5bKgebcACwujnaPlRT6oh%2F132-Prototype%3Fpage-id%3D344%253A2479%26node-id%3D344%253A2480%26starting-point-node-id%3D344%253A2480" allowfullscreen></iframe>
-            </div>
             <h2>Presentation</h2>
-            <div className='presentation'>
+            <div id="presentation" className='presentation'>
                 <iframe title="Zotdiet Presentation" src="https://docs.google.com/presentation/d/e/2PACX-1vQBlgVREqmFQW9uSBMCqe6iebJYgIgpQor23lpMPw7ghZs3iGA6O1erfEZdIs3OoNQd1fdogJv3XPXB/embed?start=false&loop=true&delayms=5000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
             </div> 
         </div>
