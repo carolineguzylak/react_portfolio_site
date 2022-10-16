@@ -1,11 +1,16 @@
 .header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    z-index:3;
     display:flex;
     /* justify-content puts space between the title and navlinks */
     justify-content: space-between;
     align-items: center;
     /* padding = 1 on top bottom left right */
     padding: 2rem 1rem 1rem 1rem;
-    background-color: rgba(0, 45, 49, 0.05);
+    background-color: rgba(237, 237, 237, 0.775);
 }
 
 #logo {
@@ -51,6 +56,10 @@
 
 /* navbar items collapse to one column when width is under 1040px */
 @media screen and (max-width: 1040px) {
+    .header {
+        position:static;
+    }
+
     .nav-menu {
         flex-direction: column;
         justify-content: center;

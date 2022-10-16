@@ -7,41 +7,59 @@ import ProjectCard from '../components/ProjectCard';
 import ProjectCardExternalData from '../components/ProjectCardExternalData';
 import ProjectCardExternal from '../components/ProjectCardExternal';
 
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
+
+
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
     return <div>
         <Navbar />
         <Header />
-        <button>Design</button> <button>Development</button>
+
+        <Tabs className={styles.tabs}>
+            <TabList>
+            <Tab><h3>Design</h3></Tab>
+            <Tab><h3>Development</h3></Tab>
+            </TabList>
+
+            <TabPanel>
+                <div className={styles.cards}>
+                    {ProjectCardData.map((value, index) => {
+                        return(
+                            <ProjectCard
+                            key={index}
+                            imgsrc={value.imgsrc}
+                            title={value.title}
+                            text={value.text}
+                            pagelink={value.pagelink}
+                            />
+                        )
+                    })}
+                </div>
+            </TabPanel>
+
+            <TabPanel>
+                <div className={styles.cards}>
+                    {ProjectCardExternalData.map((value, index) => {
+                        return(
+                            <ProjectCardExternal
+                            key={index}
+                            imgsrc={value.imgsrc}
+                            title={value.title}
+                            text={value.text}
+                            pagelink={value.pagelink}
+                            />
+                        )
+                    })}
+                </div>
+            </TabPanel>
+        </Tabs>
 
         <div>
-            <div className={styles.cards}>
-                {ProjectCardData.map((value, index) => {
-                    return(
-                        <ProjectCard
-                        key={index}
-                        imgsrc={value.imgsrc}
-                        title={value.title}
-                        text={value.text}
-                        pagelink={value.pagelink}
-                        />
-                    )
-                })}
-            </div>
-            <div className={styles.cards}>
-                {ProjectCardExternalData.map((value, index) => {
-                    return(
-                        <ProjectCardExternal
-                        key={index}
-                        imgsrc={value.imgsrc}
-                        title={value.title}
-                        text={value.text}
-                        pagelink={value.pagelink}
-                        />
-                    )
-                })}
-            </div>
+
+
         </div> 
 
 
