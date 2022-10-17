@@ -65,8 +65,9 @@ const Home = () => {
 
         </div> 
 
-
+        <p className={styles.credits}>Recipe Generator logo credit to Zothacks 2020, ICSSC Redesign logo credit to UCI ICSSC</p>
         <Footer />
+        
     </div>;
 };
 
