@@ -3,9 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 import zotdiet from "../assets/zotdiet.png"
 import affinity from "../assets/zotdietAffinity.jpg"
-import sketch1 from "../assets/zotdietSketch1.jpg"
-import sketch2 from "../assets/zotdietSketch2.jpg"
-import sketch3 from "../assets/zotdietSketch3.png"
+import zotdietSketches from "../assets/zotdietSketches.png"
 import foodScannerLofi from "../assets/foodScannerLofi.png"
 import restaurantLofi from "../assets/restaurantLofi.png"
 import diningHallLofi from "../assets/diningHallLofi.png"
@@ -19,7 +17,7 @@ import styles from '../styles/ProjectPage.module.css';
 
 const ProjectZotdiet = () => {
 
-    window.scrollTo({top:0, left:0, behavior:'instant'});
+    // window.scrollTo({top:0, left:0, behavior:'instant'});
 
     return ( <div>
         <Navbar />
@@ -126,51 +124,36 @@ const ProjectZotdiet = () => {
             <div className={styles.projectDescription}>
                 <h2>The Prototype</h2>
                 <p className={styles.subtext}>Based on the needs of our users determined by our interviews, we decided that the three main functions of our prototype would be:</p>
-                <div className={styles.listWrapper}>
-                    <ul className={styles.projectUl}>
-                        <li>Viewing nearby restaraunt options</li>
-                        <li>Viewing UCI daily dining hall options</li>
-                        <li>Scanning food item barcodes for ingredient information</li>
-                    </ul>
-                </div>
-
-                <h3>Early prototype sketches</h3>
-                <div>
-                    <div className={styles.imgSketchWrapper}>
-                        <img className={styles.imgSketch} alt="zotdiet sketch 1" src={sketch1}></img>
-                        <img className={styles.imgSketch} alt="zotdiet sketch 2" src={sketch2}></img>
-                        <img className={styles.imgSketch} alt="zotdiet sketch 3" src={sketch3}></img>
-                    </div>
-                </div>  
-
-                <div className={styles.subsection}>
-                    <h3>Low fidelity prototype created for user testing</h3>
-
-                    <div className={styles.subsection}>
-                        <div className={styles.imgWrapper}>
-                            <img  alt="low fidelity food scanner screens" src={foodScannerLofi}></img>
-                        </div>
-                        <p className={styles.subtext}>Food scanner</p>
-                    </div>
-
-                    <div className={styles.subsection}>
-                        <div className={styles.imgWrapper}>
-                            <img  alt="low fidelity restaurant search screens" src={restaurantLofi}></img>
-                        </div>
-                        <p className={styles.subtext}>Restaurant search</p>
-                    </div>  
-
-                    <div className={styles.subsection}>
-                        <div className={styles.imgWrapper}>
-                            <img  alt="low fidelity dining hall screens" src={diningHallLofi}></img>
-                        </div>
-                        <p className={styles.subtext}>UCI dining hall screens</p>
-                    </div>
-
-                </div>
-
-
             </div>
+
+
+            <h3>Early prototype sketches</h3>
+            <div className={styles.imgWrapper}>
+                <img className={styles.imgPrototype} alt="Early zotdiet sketches" src={zotdietSketches}></img>
+            </div>
+
+
+            <div className={styles.subsection}>
+                <h3>Low fidelity prototype created for user testing</h3>
+            </div>
+
+            <div className={styles.imgWrapper}>
+                    <img  className={styles.imgPrototype} alt="low fidelity food scanner screens" src={foodScannerLofi}></img>
+            </div>
+            <p className={styles.subtext}>Food scanner</p>
+
+
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="low fidelity food scanner screens" src={restaurantLofi}></img>
+            </div>
+            <p className={styles.subtext}>Restaurant search</p>
+
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="low fidelity food scanner screens" src={diningHallLofi}></img>
+            </div>
+            <p className={styles.subtext}>UCI dining hall screens</p>
+
+
 
             <div className={styles.projectDescription}>
                 <h2>Usability Testing Process and Results</h2>
@@ -184,37 +167,37 @@ const ProjectZotdiet = () => {
 
                 <h3>Key Revisions</h3>
                 <p><b>Severe Issue:</b> Some participants had trouble navigating to the Dining Hall section of the app, a main feature. To make this option more apparent, we added a large button to the 'Explore more options' section.</p>
-                
-                <div className={styles.imgWrapper}>
-                    <img  alt="revision 1" src={revision1}></img>
-                </div>
-                <p className={styles.subtext}>Left: before, Right: revised</p>
-
-                <p><b>Minor Issue:</b> Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
-                <div className={styles.imgWrapper}>
-                    <img  alt="revision 2" src={revision2}></img>
-                </div>
-                <p className={styles.subtext}>Left: before, Right: revised</p>
             </div>
+
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="revision 1" src={revision1}></img>
+            </div>
+            <p className={styles.subtext}>Left: before, Right: revised</p>
+
+            <p><b>Minor Issue:</b> Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="revision 2" src={revision2}></img>
+            </div>
+            <p className={styles.subtext}>Left: before, Right: revised</p>
 
             <div className={styles.projectDescription}>
                 <h2>Final Prototype</h2>
-
-                <div className={styles.imgWrapper}>
-                    <img  alt="hifi food scanner screens" src={foodScannerHifi}></img>
-                </div>  
-                <p className={styles.subtext}>Food scanner</p>
-
-                <div className={styles.imgWrapper}>
-                    <img  alt="hifi restaurant search screens" src={restaurantHifi}></img>
-                </div>
-                <p className={styles.subtext}>Restaurant search</p>
-
-                <div className={styles.imgWrapper}>
-                    <img  alt="hifi dining hall menu screens" src={diningHallHifi}></img>
-                </div>  
-                <p className={styles.subtext}>Dining hall menu</p>
             </div>
+
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="hifi food scanner screens" src={foodScannerHifi}></img>
+            </div>  
+            <p className={styles.subtext}>Food scanner</p>
+
+            <div className={styles.imgWrapper}>
+                <img  className={styles.imgPrototype} alt="hifi restaurant search screens" src={restaurantHifi}></img>
+            </div>
+            <p className={styles.subtext}>Restaurant search</p>
+
+            <div className={styles.imgWrapper}>
+                <img className={styles.imgPrototype} alt="hifi dining hall menu screens" src={diningHallHifi}></img>
+            </div>  
+            <p className={styles.subtext}>Dining hall menu</p>
 
 
             <h2>Presentation</h2>
