@@ -49,7 +49,7 @@ const ProjectOrchestrate = () => {
                 </ul> */}
 
                 <div className={styles.imgWrapper}>
-                    <img src={methods} className={styles.imgDesc} alt="orchestrate survey graphs"></img>
+                    <img src={methods} className={styles.imgPrototype} alt="orchestrate survey graphs"></img>
                 </div>
 
             </div>
@@ -67,7 +67,7 @@ const ProjectOrchestrate = () => {
                 </div>
 
                 <div className={styles.imgWrapper}>
-                    <img src={surveyGraphs} className={styles.imgDesc} alt="orchestrate survey graphs"></img>
+                    <img src={surveyGraphs} className={styles.imgPrototype} alt="orchestrate survey graphs"></img>
                 </div>
 
             </div>

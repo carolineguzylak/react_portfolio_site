@@ -17,7 +17,7 @@ import styles from '../styles/ProjectPage.module.css';
 
 const ProjectZotdiet = () => {
 
-    // window.scrollTo({top:0, left:0, behavior:'instant'});
+    window.scrollTo({top:0, left:0, behavior:'instant'});
 
     return ( <div>
         <Navbar />
