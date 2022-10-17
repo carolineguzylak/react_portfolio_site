@@ -44,3 +44,10 @@
     margin-left: -1em; 
 }
 
+
+@media screen and (max-width: 500px) {
+    .profilePic {
+        width:50%;
+        border-radius:50%;
+    }
+}
