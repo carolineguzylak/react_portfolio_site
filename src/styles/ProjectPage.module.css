@@ -9,9 +9,15 @@ h1, h2, h3, h4 {
     padding:1rem;
 }
 
+.imgSketchWrapper {
+    max-width: 100%; 
+    display: block; 
+    height: auto;
+}
+
 .imgSketch {
-    max-height:10%;
-    width:auto;
+    max-width:100%;
+    height:auto;
     padding:1rem;
 }
 
@@ -79,8 +85,9 @@ h1, h2, h3, h4 {
 }
 
 .headerPic{
-    max-width:35%;
-    padding:2rem;
+    max-width:30%;
+    max-height:570px;
+    padding-bottom:2rem;
 }
  
 .demoVideo{

@@ -14,6 +14,9 @@ import 'react-tabs/style/react-tabs.css';
 import styles from '../styles/Home.module.css';
 
 const Home = () => {
+
+    window.scrollTo({top:0, left:0, behavior:'instant'});
+    
     return <div>
         <Navbar />
         <Header />

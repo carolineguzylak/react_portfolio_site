@@ -9,6 +9,9 @@ import profile from "../assets/profile.jpg"
 import styles from '../styles/About.module.css';
 
 const About = () => {
+
+    window.scrollTo({top:0, left:0, behavior:'instant'});
+
     return ( <div>
         <Navbar />
         <div className={styles.frame}>

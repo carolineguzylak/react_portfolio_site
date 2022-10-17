@@ -6,6 +6,9 @@ import insta from "../assets/insta.png"
 import styles from '../styles/ProjectPage.module.css';
 
 const ProjectOrchestrate = () => {
+
+    window.scrollTo({top:0, left:0, behavior:'instant'});
+
     return ( <div>
         <Navbar />
 

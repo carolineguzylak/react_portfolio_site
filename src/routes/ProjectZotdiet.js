@@ -17,8 +17,10 @@ import revision2 from "../assets/zotdietRevision2.png"
 
 import styles from '../styles/ProjectPage.module.css';
 
-
 const ProjectZotdiet = () => {
+
+    window.scrollTo({top:0, left:0, behavior:'instant'});
+
     return ( <div>
         <Navbar />
             
@@ -134,7 +136,7 @@ const ProjectZotdiet = () => {
 
                 <h3>Early prototype sketches</h3>
                 <div>
-                    <div className={styles.imgWrapper}>
+                    <div className={styles.imgSketchWrapper}>
                         <img className={styles.imgSketch} alt="zotdiet sketch 1" src={sketch1}></img>
                         <img className={styles.imgSketch} alt="zotdiet sketch 2" src={sketch2}></img>
                         <img className={styles.imgSketch} alt="zotdiet sketch 3" src={sketch3}></img>

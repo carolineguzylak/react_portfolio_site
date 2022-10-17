@@ -6,6 +6,9 @@ import { FaRegClipboard } from "react-icons/fa";
 import styles from '../styles/Contact.module.css';
 
 const Contact = () => {
+
+    window.scrollTo({top:0, left:0, behavior:'instant'});
+
     return (
         <>
             <Navbar />
