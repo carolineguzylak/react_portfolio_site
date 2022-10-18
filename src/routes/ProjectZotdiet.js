@@ -174,7 +174,9 @@ const ProjectZotdiet = () => {
             </div>
             <p className={styles.subtext}>Left: before, Right: revised</p>
 
-            <p><b>Minor Issue:</b> Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
+            <div className={styles.projectDescription}>
+                <p><b>Minor Issue:</b> Some users expressed confusion while attempting to select their dietary preferences in the onboarding form. Our solution includes check boxes to indicate that multiple options can be selected and a scroll bar to better indicate that more options are available than those initially shown.</p>
+            </div>
             <div className={styles.imgWrapper}>
                 <img  className={styles.imgPrototype} alt="revision 2" src={revision2}></img>
             </div>
