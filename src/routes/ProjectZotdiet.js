@@ -84,10 +84,12 @@ const ProjectZotdiet = () => {
 
             <div className={styles.projectDescription}>
                 <h2>Ethical Considerations</h2>
-                <ul className={styles.projectUl}>
-                    <li>We gave participants the option of having their camera on or off while being interviewed over Zoom. </li>
-                    <li>Participant data is not associated with their name outside of our research group and all data will be kept confidential. We have omitted the participants’ names to protect their identities, referring to them as “P1”, “P2”, “P3”, and “P4”.</li>
-                </ul>
+                <div className={styles.listWrapper}>
+                    <ul className={styles.projectUl}>
+                        <li>We gave participants the option of having their camera on or off while being interviewed over Zoom. </li>
+                        <li>Participant data is not associated with their name outside of our research group and all data will be kept confidential. We have omitted the participants’ names to protect their identities, referring to them as “P1”, “P2”, “P3”, and “P4”.</li>
+                    </ul>
+                </div>
             </div>
 
             <div className={styles.projectDescription}>
@@ -118,7 +120,7 @@ const ProjectZotdiet = () => {
                     cater to specific dietary restrictions, and leave others out. We will accomodate a wide variety of 
                     diets the UCI area specifically.</p>
 
-                <a className={styles.subtext} href="https://docs.google.com/document/d/1H4d6S1Coa8gITBoI7xTTienTpeXJciVcWl_zIsLdXEM/edit?usp=sharing">Full interview data encoding</a>
+                <a className={styles.button} href="https://docs.google.com/document/d/1H4d6S1Coa8gITBoI7xTTienTpeXJciVcWl_zIsLdXEM/edit?usp=sharing">Raw interview data and encoding</a>
             </div>
 
             <div className={styles.projectDescription}>
