@@ -26,7 +26,8 @@ const ProjectCardData = [
         imgsrc: travelotl,
         title: 'Travelotl',
         text: 'QR-code-based museum exhibit interaction guide. Page under construction!',
-        pagelink: '/project-travelotl'
+        pagelink: ''
+        // pagelink: '/project-travelotl'
     }
 ];
 
