@@ -1,4 +1,4 @@
-import icssc from "../assets/icssc.png"
+
 import zothacks from "../assets/zothacks.png"
 import spotigroups from "../assets/spotigroups.jpg"
 
