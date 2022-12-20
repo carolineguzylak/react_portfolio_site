@@ -14,13 +14,13 @@ const ProjectCardData = [
         title: 'SpotiGroups',
         text: "Development Project: A party listening service",
         pagelink: 'https://devpost.com/software/spotify-groups'
-    },
-    {
-        imgsrc: icssc,
-        title: 'Ongoing: UCI ICSSC website redesign',
-        text: 'Development Project: (Page under construction)',
-        pagelink: '/project-icssc'
     }
+    // {
+    //     imgsrc: icssc,
+    //     title: 'Ongoing: UCI ICSSC website redesign',
+    //     text: 'Development Project: (Page under construction)',
+    //     pagelink: '/project-icssc'
+    // }
 ];
 
 export default ProjectCardData;

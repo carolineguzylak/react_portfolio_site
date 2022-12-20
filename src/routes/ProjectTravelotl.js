@@ -1,18 +1,16 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
-import orchestrate from "../assets/orchestrate.png"
+import travelotl from "../assets/travelotl.png"
 import surveyGraphs from "../assets/orchestrateSurveyGraphs.png"
 import methods from "../assets/orchestrateMethods.png"
 import lofi from "../assets/orchestrateLofi.png"
 import hifi from "../assets/orchestrateHifi.png"
-import feedback1 from "../assets/orchestrateFeedback1.png"
-import feedback2 from "../assets/orchestrateFeedback2.png"
 
 import styles from '../styles/ProjectPage.module.css';
 
 
-const ProjectOrchestrate = () => {
+const ProjectTravelotl = () => {
 
     window.scrollTo({top:0, left:0, behavior:'instant'});
     
@@ -21,25 +19,26 @@ const ProjectOrchestrate = () => {
 
         <div class={styles.projectWrapper}>
 
-            <img className={styles.headerPic} alt="iPhone mockups" src={orchestrate}></img>
-            <h1 className={styles.projectHeader}>Orchestrate</h1>
+            <img className={styles.headerPic} alt="iPhone mockups" src={travelotl}></img>
+            <h1 className={styles.projectHeader}>Travelotl</h1>
             <div>
-                <a href="#demo" className={styles.button}>Prototype Demo</a>
+                <a href="https://www.figma.com/proto/gKSDbPqRvbDF5cUDW11W4G/Travelotl-PORTFOLIO-VER?page-id=225%3A611&node-id=225%3A898&viewport=-2784%2C1527%2C0.39&scaling=scale-down&starting-point-node-id=225%3A898" className={styles.button}>Figma Prototype</a>
                 <a href="#presentation" className={styles.button}>Presentation</a>
+                <a href="https://www.canva.com/design/DAFSp_Lb_rM/mJbtbWCA82wkbUGKxGreqQ/watch?utm_content=DAFSp_Lb_rM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" className={styles.button}>Demo Video</a>
             </div>
             <div className={styles.projectDescription}>
-                <p>Orchestrate is a concert socialization app that provides concert-goers with a means to discover shows in their area, find friends to go with, plan event itineraries with a group, and arrange ride shares.</p>
-                <p><b>My role:</b> UI/UX designer and researcher (team of 5)</p>
+                <p>Travelotl is an app designed for both museum-goers and museum curators. The app allows visitors to scan QR
+                    codes attached to exhibits in order to gain in-depth knowledge of the exhibit or a translation of the
+                    exhibit plaque. Curators can register their museum with the app and generate QR codes for their exhibits.
+                    Museum-goers can add their friends and share their museum experiences.
+                </p>
+                <p><b>My role:</b> UI/UX designer and researcher (team of 56)</p>
                 <p><b>Time:</b> 8 weeks</p>
             </div>
 
             <div className={styles.projectDescription}>
-                <h2>Motivation</h2>
-                <p>Concerts can be stressful for many
-                    reasons. Our goal is to provide concert
-                    goers with a tool that will help them
-                    navigate and enhance their concert
-                    experience.</p>
+                <h2>Problem space</h2>
+                <p>Bu</p>
             </div>
 
             <div className={styles.projectDescription}>
@@ -99,25 +98,11 @@ const ProjectOrchestrate = () => {
 
             <div className={styles.projectDescription}>
                 <h2>Usability Testing Process and Results</h2>
-                <p>After conducting user testing, we gained this critical feedback on some of our app features:</p>
-
-                <div className={styles.imgWrapper}>
-                        <img className={styles.imgPrototypeMaxSize} src={feedback1} alt="orchestrate feedback 1"></img>
-                </div>
-
-                <p>Some users were not able to identify the filter icon, so we changed the icon to text that says "filters"
-                    in order to make the option as clear as possible.
-                </p>
-
-                <div className={styles.imgWrapper}>
-                        <img className={styles.imgPrototypeMaxSize} src={feedback2} alt="orchestrate feedback 2"></img>
-                </div>
-
-                <p>Some users suggested that a profile display upcoming events instead of past events, as this information
-                    would be more beneficial to users who are looking for friends to go to concerts with.
-                    Users also did not think that the status indicators were understandable or necessary, so we removed them 
-                    entirely. Finally, we added a feature to direct message a user from their profile.
-                </p>
+                <p>After conducting user testing, we received
+                    mostly positive feedback about our
+                    prototype, with users reporting only a few
+                    minor visual issues such as the placement
+                    of certain icons.</p>
                 
             </div>
 
@@ -131,20 +116,10 @@ const ProjectOrchestrate = () => {
             </div>
 
 
-
-
-            <div id="demo" style={{width: '90%', padding:"1rem"}}>
-                <h2 className={styles.projectHeader}>Demo Video</h2>
-                <div className={styles.demoVideo}>
-                    <iframe width='50px' height='50px' src="https://www.youtube.com/embed/hCR7i3i1sTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                    </iframe>
-                </div>
-            </div>
-
             <div id="presentation" style={{width: '90%', padding:"1rem"}}>
                 <h2 className={styles.projectHeader}>Presentation</h2>
                 <div className='presentation'>
-                    <iframe title='Orchestrate Presentation' loading="lazy" src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFBGcPwxOI&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                    <iframe title='Travelotl Presentation' src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFSRiK1pSM&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
                     </iframe>
                 </div>
             </div>
@@ -155,4 +130,4 @@ const ProjectOrchestrate = () => {
     );
 };
 
-export default ProjectOrchestrate;
+export default ProjectTravelotl;

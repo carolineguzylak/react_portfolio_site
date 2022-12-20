@@ -1,6 +1,7 @@
 import orchestrate from "../assets/orchestrate.png"
 import zotdiet from "../assets/zotdiet.png"
 import insta from "../assets/insta.png"
+import travelotl from "../assets/travelotl.png"
 
 const ProjectCardData = [
     {
@@ -20,6 +21,12 @@ const ProjectCardData = [
         title: 'Instagram redesign for mental health',
         text: 'Redesigning Instagram to better support the mental health of its users',
         pagelink: '/project-insta'
+    },
+    {
+        imgsrc: travelotl,
+        title: 'Travelotl',
+        text: 'QR-code-based museum exhibit interaction guide. Page under construction!',
+        pagelink: '/project-travelotl'
     }
 ];
 

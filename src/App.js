@@ -8,6 +8,7 @@ import Contact from "./routes/Contact"
 import ProjectOrchestrate from "./routes/ProjectOrchestrate"
 import ProjectZotdiet from "./routes/ProjectZotdiet"
 import ProjectInstaRedesign from "./routes/ProjectInstaRedesign"
+import ProjectTravelotl from "./routes/ProjectTravelotl"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/project-orchestrate" element={<ProjectOrchestrate />} />
         <Route path="/project-zotdiet" element={<ProjectZotdiet />} />
         <Route path="/project-insta" element={<ProjectInstaRedesign />} />
+        <Route path="/project-travelotl" element={<ProjectTravelotl />} />
       </Routes>
     </>
   );
