@@ -2,10 +2,6 @@ import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 import travelotl from "../assets/travelotl.png"
-import surveyGraphs from "../assets/orchestrateSurveyGraphs.png"
-import methods from "../assets/orchestrateMethods.png"
-import lofi from "../assets/orchestrateLofi.png"
-import hifi from "../assets/orchestrateHifi.png"
 
 import surveys from "../assets/travelotlSurvey.png"
 import solution from "../assets/travelotlSolution.png"
