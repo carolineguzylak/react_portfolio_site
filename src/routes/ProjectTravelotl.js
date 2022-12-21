@@ -48,11 +48,13 @@ const ProjectTravelotl = () => {
             </div>
 
             <div className={styles.projectDescription}>
-                <h2>Problem space</h2>
+                {/* <h2>Problem space</h2>
                 <p>Museums and exhibitions want all of their visitors to be able to access their exhibits, and learn
                     everything there is to learn about them. Travelers often miss out on learning opportunities because
                     deeper information about an exhibit is either not available or not in their language.
-                </p>
+                </p> */}
+                <h2>Design Question</h2>
+                <p>What solution can we create to make traveling a better, more accessible experience?</p>
             </div>
 
             <div className={styles.projectDescription}>
