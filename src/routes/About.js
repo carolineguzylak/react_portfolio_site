@@ -18,7 +18,7 @@ const About = () => {
             <img src={profile} alt='Caroline Guzylak' className={styles.profilePic}></img>
             <h1 className={styles.aboutHeader}>About me</h1>
             <p className={styles.aboutP}>
-                Hello, my name is Caroline! I am a third-year student at UC Irvine pursuing a Bachelor's in Informatics with a concentration in Human-Computer Interaction and a minor in Computer Science. Thus far in my education, I have learned the importance of applying classical strategies to modern-day projects and how to solve problems creatively. I am passionate about using the knowledge I gain in both Software Engineering and Human-Computer Interaction to make a positive impact on the daily lives of the people who use the programs I create.
+                Hello, my name is Caroline! I am a third-year student at UC Irvine pursuing a Bachelor's in Informatics with a concentration in Human-Computer Interaction, as well as a minor in Computer Science. Thus far in my education, I have learned the importance of applying classical strategies to modern-day projects and how to solve problems creatively. I am passionate about using the knowledge I gain in both Software Engineering and Human-Computer Interaction to make a positive impact on the daily lives of the people who use the programs I create.
             </p>
             <p className={styles.aboutP}>
                 I consider myself to be a driven, dedicated, and creative person. I have both technical and design-oriented skill sets that make me a well-rounded addition to any team. I take initiative to ensure that the work I deliver is top-quality. 
