@@ -25,6 +25,7 @@ const Navbar = () => {
                         <Dropdown.Item><Link to="/project-travelotl">Travelotl</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-orchestrate">Orchestrate</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-insta">Instagram Redesign</Link></Dropdown.Item>
+                        <Dropdown.Item><Link to="/project-celldogs">Cell Dogs</Link></Dropdown.Item>
                     </DropdownButton>
                 </li>
                 <li className='nav-item'>
