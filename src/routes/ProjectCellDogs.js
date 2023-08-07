@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
-import zotdiet from "../assets/zotdiet.png"
 import affinity from "../assets/zotdietAffinity.jpg"
 import zotdietSketches from "../assets/zotdietSketches.png"
 import foodScannerLofi from "../assets/foodScannerLofi.png"
