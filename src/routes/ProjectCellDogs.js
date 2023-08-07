@@ -49,7 +49,7 @@ const ProjectCellDogs = () => {
                     </div>  
                 <p><b>My role:</b> UI/UX designer on a team of 5 designers. I contributed to market research, prototyping, and user validation.</p>
                 <p><b>Time:</b> October 2022 - May 2023</p>
-                <p>This project was created under UC Irvine's Commit the Change, a student-led volunteer organization that produces high-quality software for non-profit organizations.</p>
+                <p>This project was created under UC Irvine's <a href="https://ctc-uci.com/">Commit the Change</a>, a student-led volunteer organization that produces high-quality software for non-profit organizations.</p>
             </div>
 
             <div className={styles.projectDescription}>

@@ -28,12 +28,14 @@
 
 .skill {
     margin:1rem;
-    padding:8px;
-    width:100px;
     text-align:center;
+    color:white;
+}
+.skill span {
     background-color:rgb(1, 70, 67);
     border-radius:30px;
-    color:white;
+    padding: 10px 20px 10px 20px;
+    margin:5px;
 }
 
 .courses li::before {
