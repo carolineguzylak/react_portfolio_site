@@ -12,6 +12,11 @@ import restaurantHifi from "../assets/restaurantHifi.png"
 import diningHallHifi from "../assets/diningHallHifi.png"
 import revision1 from "../assets/zotdietRevision1.png"
 import revision2 from "../assets/zotdietRevision2.png"
+import persona1 from "../assets/CDSCaseStudy1.png"
+import persona2 from "../assets/CDSCaseStudy2.png"
+import compAudit from "../assets/CDSCompetetiveAudit.png"
+import logo from "../assets/CDSLogo.png"
+import thankYouVideo from "../assets/CDS.MOV"
 
 import styles from '../styles/ProjectPage.module.css';
 
@@ -23,30 +28,73 @@ const ProjectCellDogs = () => {
         <Navbar />
             
         <div class={styles.projectWrapper}>
-            <img className={styles.headerPic} alt="iPhone mockups" src={zotdiet}></img>
-            <h1>Cell Dogs</h1>
-            <div>
-                <a href="https://www.figma.com/proto/E5bKgebcACwujnaPlRT6oh/132-Prototype?page-id=344%3A2479&node-id=344%3A2480&starting-point-node-id=344%3A2480" className={styles.button}>Prototype Demo</a>
-                <a href="#presentation" className={styles.button}>Presentation</a>
+            <div className={styles.imgWrapper}>
+                <img style={{width: '100px'}} alt="Cell Dogs logo" src={logo}></img>
+            </div>
+            <h1>Cell Dogs (UNDER CONSTRUCTION)</h1>
+            <div className={styles.subsection}>
+                <a href="https://www.figma.com/proto/E5bKgebcACwujnaPlRT6oh/132-Prototype?page-id=344%3A2479&node-id=344%3A2480&starting-point-node-id=344%3A2480" className={styles.button}>?</a>
             </div>
             <div className={styles.projectDescription}>
-                <p>ZotDiet is an application designed for UCI students who live with dietary restrictions. Our research on these students indicated that they were in need of a solution to help them find suitable food either on or near campus during their time at UCI. This solution is ZotDiet. 
-                    The application allows students to: </p>
+                <p>Over the course of one academic year, I took part in designing a database website to support the non-profit organization, <a href="https://www.celldogs.org/">Cell Dogs</a>. Cell Dogs is a non-profit organization that assists with the rehabilitation of adults and juveniles in correctional facilities, by giving them the opportunity to train rescued dogs. This NPO was struggling with data management, and previously kept all organization data in a spreadsheet that was <b>prone to error</b>, <b>difficult to search</b>, and <b>difficult to update</b>.</p>
+                <p>The NPO required the following functionality for the new website:</p>    
                     <div className={styles.listWrapper}>
                         <ul className={styles.projectUl}>
-                            <li>View daily dining hall menus and nearby restaurant menus while automatically highlighting menu items that fit with the user's diet. </li>
-                            <li>Scan food items at a grocery story. The app will immediately notify them if the item fits their diet.</li>
-                            <li>Save favorite food items and restaurants.</li>
+                            <li>Add a dog or edit a dog within the database.</li>
+                            <li>Add a jail or edit a jail within the database.</li>
+                            <li>Search and filter the database</li>
+                            <li>Securely log in as an administrator</li>
+                            <li>Add new administrator logins</li>
                         </ul>
                     </div>  
-                <p><b>My role:</b> UI/UX designer and researcher (team of 5). I contributed to every part of the project, including market research, user interviews, ideation, prototyping, and user testing.</p>
-                <p><b>Time:</b> 10 weeks</p>
-                <p>This project was created for Informatics 132 at UC Irvine, a project course on Human-Computer Interaction, where students use HCI principles to complete design projects.</p>
+                <p><b>My role:</b> UI/UX designer on a team of 5 designers. I contributed to market research, prototyping, and user validation.</p>
+                <p><b>Time:</b> October 2022 - May 2023</p>
+                <p>This project was created under UC Irvine's Commit the Change, a student-led volunteer organization that produces high-quality software for non-profit organizations.</p>
             </div>
 
             <div className={styles.projectDescription}>
-                <h2>Motivation</h2>
-                <p>Our team conducted research on how UCI students with dietary restrictions navigate grocery shopping and find restaurants in the Irvine area where they are accommodated. Members of our team have personally experienced the struggles that come with having a restrictive diet, so we were personally motivated to create a more accessible, inclusive dining environment for UCI students. Initial research suggests that studies on inclusive dining have been done at a handful of outside organizations, but not at UCI or other UC schools. Therefore, this study targets UCI student to improve their experiences with food on campus.</p>
+                <h2>User personas</h2>
+                <p>To begin, my design team and I created user personas to better understand our two main users, the head NPO administrators.</p>
+                <div className={styles.imgWrapper}>
+                    <img alt="User persona 1" src={persona1} className={styles.imgPersona}></img>
+                    <img alt="User persona 2" src={persona2} className={styles.imgPersona}></img>
+                </div>
+            </div>
+
+            <div className={styles.projectDescription}>
+                <h2>Competetive audit</h2>
+                <div className={styles.imgWrapper}>
+                <img alt="Competetive audit jamboard" src={compAudit} className={styles.imgPersona}></img>
+                </div>
+                <p>My team held a session to research existing database product in order to determine the best way to display and edit the NPO's data. We decided to include these key features in our designs:</p>
+                <div className={styles.listWrapper}>
+                    <ul className={styles.projectUl}>
+                        <li>Color coded chips that are applied to each dog. These would indicate tags like if the dog had graduated the program or if the dog had been adopted.</li>
+                        <li>Database filters contained in a side-sheet. These would allow users to sort through the dogs by checking off certain filters.</li>
+                        <li>A profile view for each individual dog, where their detailed data can be viewed and edited.</li>
+                    </ul>
+                </div>
+           </div>
+
+            <div className={styles.projectDescription}>
+                <h2>Design</h2>
+                <p>My team and I began ideating through simple whiteboard sketches that outlined each page we would need to include in our final designs.</p>
+                <p>I primarily work on the individual dog view page. The designs for this page that were presented for user validation are shown below.</p>
+                <p>To better standardize our designs and ease handoff to the developer team, the designs use Chakra UI kit for Figma.</p>
+            </div>
+
+            <div className={styles.demoVideo}>
+                <iframe title="Dog page demo" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FZGemGZiFEZ0In0kjdmNAsp%2FCDS-Portfolio-Ver%3Ftype%3Ddesign%26node-id%3D1%253A5817%26mode%3Ddesign%26t%3DGQNgRbCqtIxgQJTU-1" allowfullscreen></iframe>
+            </div>
+
+            <div className={styles.projectDescription}>
+                <h2>Thank you video from Cell Dogs</h2>
+                <p>After delivering the final product, we received this thank you video from Cell Dogs. It shows all the dogs that were rehabilitated by the NPO during the time that we completed this project. Thanks to Cell Dogs for finding forever homes for these dogs!</p>
+                <div className={styles.imgWrapper}>
+                    <video height="540px" controls>
+                        <source src={thankYouVideo}/>
+                    </video>
+                </div>
             </div>
 
             <div className={styles.projectDescription}>

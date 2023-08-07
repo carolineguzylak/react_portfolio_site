@@ -31,8 +31,9 @@
     box-shadow: -7px -5px 15px 5px #ceffcb, 12px -5px 15px 5px #c2e4ff, 12px 10px 15px 7px #f5d2ff, -10px -7px 27px 1px #d3c0ff, 5px 5px 15px 5px rgba(0,0,0,0);
 }
 
-.description-box {
+#description-box {
     padding: 2rem;
+    max-width:500px;
 }
 
 .learnButton {
@@ -66,10 +67,6 @@
         border-radius: 20px;
     }
 
-    .project-description {
-        font-size:14px;
-    }
-
     .project-card img {
         max-width:90%;
         margin:2rem; 
@@ -84,7 +81,7 @@
         width: 70%;
     }
 
-    .description-box {
+    #description-box {
         padding: 0 1rem 1rem 1rem;
         display:flex;
         flex-direction: column;

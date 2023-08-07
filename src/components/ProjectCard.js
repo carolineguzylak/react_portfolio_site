@@ -15,7 +15,7 @@ const ProjectCard = (props) => {
     return ( 
         <div data-aos="fade-up" className="project-card">
             <img src={props.imgsrc} alt="Screen of project"/>
-            <div className='description-box'>
+            <div id='description-box'>
                 <h2 className="project-title">{props.title}</h2>
                 <p className="project-description">{props.text}</p>
                 <br></br>

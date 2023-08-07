@@ -52,13 +52,19 @@ body {
 }
 
 
-h1, h2, h3, a {
+h1, h2, h3 {
   color: rgb(1, 70, 67);
+  text-decoration: none;
+}
+
+a {
+  color: rgb(0, 146, 139);
   text-decoration: none;
 }
 
 p, li {
   font-size:18px;
+  text-align: left;
 }
 
 ul {
