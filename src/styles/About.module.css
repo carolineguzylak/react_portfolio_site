@@ -1,7 +1,7 @@
 
 
 .profilePic {
-    width:25%;
+    width:20%;
     border-radius:50%;
 }
  
@@ -30,9 +30,10 @@
     margin:1rem;
     text-align:center;
     color:white;
+    font-family: var(--body-font);
 }
 .skill span {
-    background-color:rgb(1, 70, 67);
+    background-color:var(--primary);
     border-radius:30px;
     padding: 10px 20px 10px 20px;
     margin:5px;

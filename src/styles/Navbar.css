@@ -20,7 +20,7 @@
 #projects-button {
     background:none;
     border:none;
-    color:rgb(1, 70, 67);
+    color:var(--primary);
     font-size: 1.2rem;
     font-weight:500;
     padding: 0 1rem;

@@ -7,7 +7,7 @@ const ProjectCardData = [
     {
         imgsrc: zotdiet,
         title: 'ZotDiet',
-        text: 'Supporting UCI students with dietary restrictions: Menu filters and food label scanner',
+        text: 'Supporting UCI students living with dietary restrictions: Menu filters and food label scanner',
         pagelink: '/project-zotdiet'
     },
     {

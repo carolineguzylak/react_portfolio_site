@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+// import Col from 'react-bootstrap/Col';
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer"
 import profile from "../assets/profile.jpg" 
@@ -13,7 +13,7 @@ const About = () => {
     window.scrollTo({top:0, left:0, behavior:'instant'});
 
     return ( <div>
-        <Navbar />
+        <Navbar /> 
         <div className={styles.frame}>
             <img src={profile} alt='Caroline Guzylak' className={styles.profilePic}></img>
             <h1 className={styles.aboutHeader}>About me</h1>
@@ -72,7 +72,7 @@ const About = () => {
                 </Row>
             </Container>
 
-            <h1 className={styles.aboutHeader}>Coursework</h1>
+            {/* <h1 className={styles.aboutHeader}>Coursework</h1>
             <ul className={styles.courses}>
                 <Container>
                     <Row>
@@ -94,7 +94,7 @@ const About = () => {
                         </Col>
                     </Row>
                 </Container>
-            </ul>
+            </ul> */}
         </div>
         <Footer />
     </div>
