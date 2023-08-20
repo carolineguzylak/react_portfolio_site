@@ -14,14 +14,13 @@ const ProjectCard = (props) => {
 
     return ( 
         <div data-aos="fade-up" className="project-card">
-            <img src={props.imgsrc} alt="Screen of project"/>
-            <div id='description-box'>
-                <h2 className="project-title">{props.title}</h2>
-                <p className="project-description">{props.text}</p>
-                <br></br>
+            <div className="contentWrapper">
+                <h2>{props.title}</h2>
+                <p>{props.text}</p>
                 <Link to={props.pagelink} className="learnButton">View case study</Link>
-                {/* <a href={props.pagelink} className="learnButton">View case study</a> */}
             </div>
+
+            <img src={props.imgsrc} alt="Screen of project"/>
         </div>
      );
 };

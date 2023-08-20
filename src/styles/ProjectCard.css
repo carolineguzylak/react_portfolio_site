@@ -1,23 +1,11 @@
 
 .project-card {
-    width: 55%;
     height: 30em;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     background: white;
     padding: 1.2rem 1rem;
-    border-radius: 20px;
     margin:3rem;
-    outline-style:solid;
-    outline-color:var(--card-outline);
-
-    /* Allows for shadow to appear while hovering */
-    /* -webkit-transition: box-shadow 0.3s 0s ease;
-    -moz-transition: box-shadow 0.3s 0s ease;
-    -o-transition: box-shadow 0.3s 0s ease;
-    transition: box-shadow 0.3s 0s ease; */
-
 }
 
 .project-card img {
@@ -25,18 +13,6 @@
     max-height:100%;
     margin:1rem 1rem 1rem 2rem; 
     border-radius: 20px;
-}
-
-.project-card:hover {
-    /* card glow css */
-    /* -webkit-box-shadow: -7px -5px 15px 5px #ceffcb, 12px -5px 15px 5px #a5cae7, 12px 10px 15px 7px #d1b1db, -10px -7px 27px 1px #c5aefb, 5px 5px 15px 5px rgba(0,0,0,0); 
-    box-shadow: -7px -5px 15px 5px #ceffcb, 12px -5px 15px 5px #c2e4ff, 12px 10px 15px 7px #f5d2ff, -10px -7px 27px 1px #d3c0ff, 5px 5px 15px 5px rgba(0,0,0,0); */
-    transform: scale(1.5);
-}
-
-#description-box {
-    padding: 2rem;
-    max-width:400px;
 }
 
 .learnButton {

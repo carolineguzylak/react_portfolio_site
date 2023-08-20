@@ -4,10 +4,8 @@ import Header from "../components/Header";
 import Footer from "../components/Footer";
 import ProjectCardData from '../components/ProjectCardData';
 import ProjectCard from '../components/ProjectCard';
-import ProjectCardExternalData from '../components/ProjectCardExternalData';
-import ProjectCardExternal from '../components/ProjectCardExternal';
 
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 
@@ -19,51 +17,23 @@ const Home = () => {
     
     return <div>
         <Navbar />
-        <Header />
 
-        <Tabs className={styles.tabs}>
-            <TabList>
-            <Tab><h3>Design</h3></Tab>
-            <Tab><h3>Development</h3></Tab>
-            </TabList>
-
-            <TabPanel>
-                <div className={styles.cards}>
-                    {ProjectCardData.map((value, index) => {
-                        return(
-                            <ProjectCard
+        <div className={styles.contentWrapper}>
+            <Header />
+            <div className={styles.cards}>
+                {ProjectCardData.map((value, index) => {
+                    return(
+                        <ProjectCard
                             key={index}
                             imgsrc={value.imgsrc}
                             title={value.title}
                             text={value.text}
                             pagelink={value.pagelink}
-                            />
+                        />
                         )
-                    })}
-                </div>
-            </TabPanel>
-
-            <TabPanel>
-                <div className={styles.cards}>
-                    {ProjectCardExternalData.map((value, index) => {
-                        return(
-                            <ProjectCardExternal
-                            key={index}
-                            imgsrc={value.imgsrc}
-                            title={value.title}
-                            text={value.text}
-                            pagelink={value.pagelink}
-                            />
-                        )
-                    })}
-                </div>
-            </TabPanel>
-        </Tabs>
-
-        <div>
-
-
-        </div> 
+                })}
+            </div>
+        </div>
 
         <Footer />
         

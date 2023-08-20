@@ -2,9 +2,10 @@ import '../styles/Header.css'
 
 const Header = () => {
     return ( 
-        <div className="headerFrame">
+        <div className="headerContainer">
             <div className="headerText">
-                <h1 className="headerName">Hi! I'm Caroline.</h1>
+                <h1>Hi! I'm Caroline.</h1>
+                <h3>Welcome to my design portfolio.</h3>
             </div>
         </div>
      );
