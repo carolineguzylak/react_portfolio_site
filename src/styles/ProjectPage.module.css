@@ -1,5 +1,5 @@
 
-h1 {
+h1, h3, h4 {
     text-align:center;
 }
 
@@ -61,16 +61,16 @@ h1 {
 .button {
     border-width:1px;
     color:#fff;
-    border-color:rgb(0, 39, 37);
-    border-top-left-radius:28px;
-    border-top-right-radius:28px;
-    border-bottom-left-radius:28px;
-    border-bottom-right-radius:28px;
-    background:rgb(1, 70, 67);
-    padding: 0.5rem 1rem;
-    margin: 10px;
+    border-radius:var(--button-border-radius);
+    background:var(--primary);
+    padding: 0.25rem 0.5rem;
+    margin: 5px;
 }
 
+.button:hover {
+    background: var(--highlight);
+    color:white;
+}
 
 .subtext {
     text-align:center;
@@ -150,11 +150,4 @@ h1 {
         list-style-type: circle;
         max-width:100%;
     }
-
-    a {font-size:13px;}
-    p{font-size:13px;}
-    li{font-size:13px;}
-    h4 {font-size:15px;}
-    h3 {font-size:16px;}
-    h2 {font-size:18px;}
 }

@@ -8,9 +8,8 @@
     /* justify-content puts space between the title and navlinks */
     justify-content: space-between;
     align-items: center;
-    /* padding = 1 on top bottom left right */
     padding: 2rem 1rem 1rem 1rem;
-    background-color: rgba(237, 237, 237, 0.775);
+    background-color: rgba(242, 239, 248, 0.775);
 }
 
 #logo {
@@ -23,12 +22,13 @@
     color:var(--primary);
     font-size: 1.2rem;
     font-weight:500;
-    padding: 0 1rem;
-    min-width:50px;
+    padding:0px;
+    height:50px;
 }
 
 .nav-menu{
     display: flex;
+    align-items:center;
 }
 
 .nav-menu li {

@@ -18,9 +18,9 @@
 .learnButton {
     border-width:1px;
     color:#fff;
-    border-radius:28px 28px 28px 28px;
+    border-radius:var(--button-border-radius);
     background:var(--primary);
-    padding: 0.5rem 1rem;
+    padding: 0.25rem 0.5rem;
 }
 
 .learnButton:hover {
@@ -34,7 +34,7 @@
         height: 40em;
         margin: 2rem;
         display: flex;
-        flex-direction: column;
+        flex-direction:column-reverse;
         justify-content: space-evenly;
         align-items: center;
         padding: 1.2rem 1rem;
@@ -42,8 +42,7 @@
     }
 
     .project-card img {
-        max-width:90%;
-        margin:2rem; 
+        max-width:100%; 
         border-radius: 0;
     }
 
