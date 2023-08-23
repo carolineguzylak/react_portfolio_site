@@ -35,7 +35,7 @@ const Navbar = () => {
                     <Link to="/contact">Connect!</Link>
                 </li>
                 <li>
-                    <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://docs.google.com/document/d/1LQ4vaUphe9Sz1_OWzWmEIz2F1pJtugJqWGB4Njfd3Js/edit?usp=sharing">Resume</a>
+                    <a className="nav-item" target="_blank" rel="noopener noreferrer" href="https://drive.google.com/file/d/1Iq7mZaj6jL7lB7R6ldV5pscI5bQUw0FG/view?usp=sharing">Resume</a>
                 </li>
             </ul>
             <div className='hamburger' onClick={handleClick}>
