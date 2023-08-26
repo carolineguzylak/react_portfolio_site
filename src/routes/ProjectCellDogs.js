@@ -6,6 +6,9 @@ import persona2 from "../assets/CDSCaseStudy2.png"
 import compAudit from "../assets/CDSCompetetiveAudit.png"
 import logo from "../assets/CDSLogo.png"
 import thankYouVideo from "../assets/CDS.MOV"
+import facilities from "../assets/CDSfacilities.png"
+import dogpage from "../assets/CDSdogpage.png"
+import dogpage2 from "../assets/CDSdogpage2.png"
 
 import styles from '../styles/ProjectPage.module.css';
 
@@ -20,25 +23,27 @@ const ProjectCellDogs = () => {
             <div className={styles.imgWrapper}>
                 <img style={{width: '100px'}} alt="Cell Dogs logo" src={logo}></img>
             </div>
-            <h1>Cell Dogs (UNDER CONSTRUCTION)</h1>
-            <div className={styles.subsection}>
-                <a href="https://www.figma.com/proto/E5bKgebcACwujnaPlRT6oh/132-Prototype?page-id=344%3A2479&node-id=344%3A2480&starting-point-node-id=344%3A2480" className={styles.button}>?</a>
-            </div>
+            <h1>Cell Dogs</h1>
             <div className={styles.projectDescription}>
-                <p>Over the course of one academic year, I took part in designing a database website to support the non-profit organization, <a href="https://www.celldogs.org/">Cell Dogs</a>. Cell Dogs is a non-profit organization that assists with the rehabilitation of adults and juveniles in correctional facilities, by giving them the opportunity to train rescued dogs. This NPO was struggling with data management, and previously kept all organization data in a spreadsheet that was <b>prone to error</b>, <b>difficult to search</b>, and <b>difficult to update</b>.</p>
-                <p>The NPO required the following functionality for the new website:</p>    
-                    <div className={styles.listWrapper}>
-                        <ul className={styles.projectUl}>
-                            <li>Add a dog or edit a dog within the database.</li>
-                            <li>Add a jail or edit a jail within the database.</li>
-                            <li>Search and filter the database</li>
-                            <li>Securely log in as an administrator</li>
-                            <li>Add new administrator logins</li>
-                        </ul>
-                    </div>  
+                <p>Over the course of one academic year, I designed a database website to support the non-profit organization, <a href="https://www.celldogs.org/">Cell Dogs</a>. Cell Dogs assists the rehabilitation of adults and juveniles in correctional facilities by giving them the opportunity to train rescued dogs.</p>
                 <p><b>My role:</b> UI/UX designer on a team of 5 designers. I contributed to market research, prototyping, and user validation.</p>
                 <p><b>Time:</b> October 2022 - May 2023</p>
                 <p>This project was created under UC Irvine's <a href="https://ctc-uci.com/">Commit the Change</a>, a student-led volunteer organization that produces high-quality software for non-profit organizations.</p>
+            </div>
+
+            <div className={styles.projectDescription}>
+            <h2>Requirements</h2>
+                <p>This NPO was struggling with data management, and previously kept all organization data in a spreadsheet that was <b>prone to error</b>, <b>difficult to search</b>, and <b>difficult to update</b>.</p>
+                <p>The NPO required the following functionality for the new website:</p>    
+                <div className={styles.listWrapper}>
+                    <ul className={styles.projectUl}>
+                        <li>Add a dog or edit a dog within the database.</li>
+                        <li>Add a jail or edit a jail within the database.</li>
+                        <li>Search and filter the database</li>
+                        <li>Securely log in as an administrator</li>
+                        <li>Add new administrator logins</li>
+                    </ul>
+                </div>  
             </div>
 
             <div className={styles.projectDescription}>
@@ -95,12 +100,22 @@ const ProjectCellDogs = () => {
                         </li>
                         <li><b>Search for a dog: </b>How would you search for a dog that is female, graduated from OC probation, and a Husky?</li>
                 </ul>
-                <p>This last questi</p>
+
+                <p><b>The results:</b> Our NPO representative was able to complete all of the tasks successfully, but had a few requests for design changes:</p>
+                <p>1. Key facility contacts should be shown for each entry in the facilities table.</p>
+                <img style={{width: '90%'}} alt="Facilities page amendments" src={facilities}></img>
+                <p>2. Under each dog's details, the specific unit they trained under at their facility should be displayed.</p>
+                <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage}></img>
+                <p>3. The dog's age should not be its actual age, but the age of graduation from the Cell Dogs program.</p>
+                <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage2}></img>
+
+                <p>After making these changes, we gained full approval from Cell Dogs and prepared to finalize the product.</p>
             </div>
 
             <div className={styles.projectDescription}>
                 <h2>User manual</h2>
-                <p></p>
+                <p>We created a user manual that Cell Dogs could refer to if they ever needed help using our software. This manual was created in Gitbook and contains step-by-step instructions on how to perform main functions, such as 'How to add a new dog' or 'How to edit a dog's information.' </p>
+                <p>This user manual cannot be shared publically due to it containing sensitive internal information.</p>
             </div>
 
             <div className={styles.projectDescription}>

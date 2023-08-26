@@ -10,6 +10,7 @@ import ProjectZotdiet from "./routes/ProjectZotdiet"
 import ProjectInstaRedesign from "./routes/ProjectInstaRedesign"
 import ProjectTravelotl from "./routes/ProjectTravelotl"
 import ProjectCellDogs from "./routes/ProjectCellDogs"
+import ProjectTeradata from "./routes/ProjectTeradata"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path="/project-insta" element={<ProjectInstaRedesign />} />
         <Route path="/project-travelotl" element={<ProjectTravelotl />} />
         <Route path="/project-celldogs" element={<ProjectCellDogs />} />
+        <Route path="/project-teradata" element={<ProjectTeradata />} />
       </Routes>
     </>
   );

@@ -2,9 +2,16 @@ import orchestrate from "../assets/orchestrate.png"
 import zotdiet from "../assets/zotdiet.png"
 import insta from "../assets/insta.png"
 import travelotl from "../assets/travelotl.png"
-import cds from "../assets/CDSLogo.png";
+import cds from "../assets/CDSLogo.jpg";
+import td from "../assets/TDLogo.png";
 
 const ProjectCardData = [
+    {
+        imgsrc: td,
+        title: 'Teradata',
+        text: 'Creating a new design system, unifying the login experience, and developing web components',
+        pagelink: '/project-teradata'
+    },
     {
         imgsrc: cds,
         title: 'Cell Dogs',

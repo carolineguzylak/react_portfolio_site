@@ -1,6 +1,6 @@
 
 .projectCard {
-    height: 30em;
+    padding-top:5em;
     display: flex;
     align-items: center;
     background: white;
