@@ -1,4 +1,4 @@
-import '../styles/ProjectCard.css';
+import styles from '../styles/ProjectCard.module.css'
 import React from 'react'
 
 import Aos from "aos";
@@ -13,11 +13,11 @@ const ProjectCard = (props) => {
     }, []);
 
     return ( 
-        <div data-aos="fade-up" className="project-card">
-            <div className="contentWrapper">
+        <div data-aos="fade-up" className={styles.projectCard}>
+            <div className={styles.contentWrapper}>
                 <h2>{props.title}</h2>
                 <p>{props.text}</p>
-                <Link to={props.pagelink} className="learnButton">View case study</Link>
+                <Link to={props.pagelink} className={styles.learnButton}>View case study</Link>
             </div>
 
             <img src={props.imgsrc} alt="Screen of project"/>

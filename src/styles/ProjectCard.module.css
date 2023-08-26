@@ -1,18 +1,23 @@
 
-.project-card {
+.projectCard {
     height: 30em;
     display: flex;
     align-items: center;
     background: white;
-    padding: 1.2rem 1rem;
-    margin:3rem;
+    /* padding: 1.2rem 1rem; */
 }
 
-.project-card img {
-    max-width:40%;
-    max-height:100%;
+.projectCard img {
+    max-height:450px;
+    max-width:320px;
+    /* object-fit: contain; */
+    object-fit:scale-down;
     margin:1rem 1rem 1rem 2rem; 
     border-radius: 20px;
+}
+
+.contentWrapper {
+    width:350px;
 }
 
 .learnButton {
@@ -29,7 +34,7 @@
 }
 
 @media screen and (max-width: 1040px) {
-    .project-card {
+    .projectCard {
         max-width: 50%;
         height: 40em;
         margin: 2rem;
@@ -41,7 +46,7 @@
         border-radius: 20px;
     }
 
-    .project-card img {
+    .projectCard img {
         max-width:100%; 
         border-radius: 0;
     }
@@ -50,7 +55,7 @@
         visibility:hidden;
     }
 
-    .project-card img {
+    .projectCard img {
         width: 70%;
     }
 

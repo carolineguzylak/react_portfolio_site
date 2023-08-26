@@ -2,8 +2,15 @@ import orchestrate from "../assets/orchestrate.png"
 import zotdiet from "../assets/zotdiet.png"
 import insta from "../assets/insta.png"
 import travelotl from "../assets/travelotl.png"
+import cds from "../assets/CDSLogo.png";
 
 const ProjectCardData = [
+    {
+        imgsrc: cds,
+        title: 'Cell Dogs',
+        text: 'Database software to manage a dog rescue non-profit organization',
+        pagelink: '/project-celldogs'
+    },
     {
         imgsrc: zotdiet,
         title: 'ZotDiet',
