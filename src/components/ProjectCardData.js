@@ -4,7 +4,7 @@ import insta from "../assets/insta.png"
 import travelotl from "../assets/travelotl.png"
 import cds from "../assets/CDSLogo.jpg";
 import td from "../assets/Teradata/TDLogo.png";
-import uci from "../assets/uci.png";
+// import uci from "../assets/uci.png";
 
 const ProjectCardData = [
     {
@@ -13,12 +13,12 @@ const ProjectCardData = [
         text: 'Creating a new design system, unifying the login experience, and developing web components',
         pagelink: '/project-teradata'
     },
-    {
-        imgsrc: uci,
-        title: 'UCI Student Center',
-        text: '*Insert description',
-        pagelink: '/project-teradata'
-    },
+    // {
+    //     imgsrc: uci,
+    //     title: 'UCI Student Center',
+    //     text: '*Insert description',
+    //     pagelink: '/project-teradata'
+    // },
     {
         imgsrc: cds,
         title: 'Cell Dogs',

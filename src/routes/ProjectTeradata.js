@@ -10,6 +10,7 @@ import ctaDelta from "../assets/Teradata/ctaDelta.png"
 import m3Primary from "../assets/Teradata/m3Primary.png"
 import palettes from "../assets/Teradata/palettes.png"
 import usecases from "../assets/Teradata/usecases.png"
+import webcomponent from "../assets/Teradata/webcomponent.gif"
 
 import styles from '../styles/ProjectPage.module.css';
 
@@ -174,6 +175,12 @@ const ProjectTeradata = () => {
             <div className={styles.projectDescription}>
                 <h2>Web component development</h2>
                 <p>I created an Expansion Panel responsive web component for Teradata’s component library hosted in Github Storybook. Based on an existing Figma design for the Expansion Panel, I programmed the component using the Lit web component framework.</p>
+                <p>The component contains optional content previews and footers. The main content or footer can contain text or any other component, such as action buttons.</p>
+                <div className={styles.imgWrapper}>
+                    <img  style={{width: '800px'}} alt="Expansion panel web component" src={webcomponent}></img>
+                </div>
+                <p className={styles.subtext}>Expansion panel web component</p>   
+            
             </div>
 
         </div>
