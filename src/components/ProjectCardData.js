@@ -3,13 +3,20 @@ import zotdiet from "../assets/zotdiet.png"
 import insta from "../assets/insta.png"
 import travelotl from "../assets/travelotl.png"
 import cds from "../assets/CDSLogo.jpg";
-import td from "../assets/TDLogo.png";
+import td from "../assets/Teradata/TDLogo.png";
+import uci from "../assets/uci.png";
 
 const ProjectCardData = [
     {
         imgsrc: td,
-        title: 'Teradata',
+        title: 'Teradata UX Design Internship',
         text: 'Creating a new design system, unifying the login experience, and developing web components',
+        pagelink: '/project-teradata'
+    },
+    {
+        imgsrc: uci,
+        title: 'UCI Student Center',
+        text: '*Insert description',
         pagelink: '/project-teradata'
     },
     {

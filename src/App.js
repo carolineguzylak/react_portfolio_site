@@ -11,6 +11,7 @@ import ProjectInstaRedesign from "./routes/ProjectInstaRedesign"
 import ProjectTravelotl from "./routes/ProjectTravelotl"
 import ProjectCellDogs from "./routes/ProjectCellDogs"
 import ProjectTeradata from "./routes/ProjectTeradata"
+import ProjectStudentCenter from "./routes/ProjectStudentCenter"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/project-travelotl" element={<ProjectTravelotl />} />
         <Route path="/project-celldogs" element={<ProjectCellDogs />} />
         <Route path="/project-teradata" element={<ProjectTeradata />} />
+        <Route path="/project-studentcenter" element={<ProjectStudentCenter />} />
       </Routes>
     </>
   );

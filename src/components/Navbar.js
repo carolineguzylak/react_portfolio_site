@@ -21,6 +21,8 @@ const Navbar = () => {
                 </li>
                 <li className='nav-item'>
                     <DropdownButton id="projects-button" title="Projects">
+                        <Dropdown.Item><Link to="/project-teradata">Teradata</Link></Dropdown.Item>
+                        <Dropdown.Item><Link to="/project-studentcenter">Student Center</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-celldogs">Cell Dogs</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-zotdiet">ZotDiet</Link></Dropdown.Item>
                         <Dropdown.Item><Link to="/project-travelotl">Travelotl</Link></Dropdown.Item>

@@ -11,6 +11,7 @@
   --body-background: #FFFFFF;
   --card-outline: #7389ae88;
   --body-font: 'Inter', sans-serif;
+  --subtext-color: #646464;
   --header-font: 'Poppins', sans-serif;
   --button-border-radius: 5px;
 }
@@ -34,6 +35,22 @@ p, li {
 
 ul {
   list-style-type: none;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 60%;               
+  background-color:var(--primary);
+  height: 2px;
+}
+
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
 }
 
 .presentation{
