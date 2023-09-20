@@ -4,16 +4,14 @@
     display: flex;
     align-items: center;
     background: white;
-    /* padding: 1.2rem 1rem; */
 }
 
 .projectCard img {
     max-height:450px;
     max-width:320px;
-    /* object-fit: contain; */
     object-fit:scale-down;
     margin:1rem 1rem 1rem 2rem; 
-    border-radius: 20px;
+    border-radius: 0;
 }
 
 .contentWrapper {
@@ -35,7 +33,7 @@
 
 @media screen and (max-width: 1040px) {
     .projectCard {
-        max-width: 50%;
+        max-width: 80%;
         height: 40em;
         margin: 2rem;
         display: flex;
@@ -47,8 +45,8 @@
     }
 
     .projectCard img {
-        max-width:100%; 
-        border-radius: 0;
+        max-width:65%; 
+        margin:0;
     }
 
     br {

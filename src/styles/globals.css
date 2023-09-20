@@ -26,9 +26,10 @@ h1, h2, h3, a {
   text-decoration: none;
 }
 
+
 p, li {
   font-family: var(--body-font);
-  font-size:18px;
+  font-size:1.1em;
   text-align: left;
   line-height:32px;
 }

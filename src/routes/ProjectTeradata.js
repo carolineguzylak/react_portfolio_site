@@ -11,6 +11,8 @@ import m3Primary from "../assets/Teradata/m3Primary.png"
 import palettes from "../assets/Teradata/palettes.png"
 import usecases from "../assets/Teradata/usecases.png"
 import webcomponent from "../assets/Teradata/webcomponent.gif"
+import createaccount from "../assets/Teradata/createaccount.png"
+import createaccounterror from "../assets/Teradata/createaccounterror.png"
 
 import styles from '../styles/ProjectPage.module.css';
 
@@ -45,38 +47,42 @@ const ProjectTeradata = () => {
                 <h2>Unified login experience initiative</h2>
                 <p>The goal of the ULE initiative is to create a single ideal login experience that can be used across all 14 Teradata web domains in order to create a simple, unified experience. I took the opportunity to spearhead this effort during my internship and build the foundation for these design changes to take place.</p>
                 <p>To begin, I cataloged the account creation, login, and password recovery flows for each of the 14 web domains. I used a Miro board and documented each step of each flow, beginning to identify deviations or mistakes in each flow.</p>
+           
+                <div className={styles.imgWrapper}>
+                    <img style={{width: '1000px'}} alt="High level view of catalog Miro board" src={catalogBig}></img>
+                </div>
+
+                <p>Below is an example of a board created for a single domain. It tracks the user flow through account creation, login, and password recovery.</p>
+
+                <div className={styles.imgWrapper}>
+                    <img alt="Lower level view of catalog Miro board" src={catalogMedium}></img>
+                </div>
+
+                <p>After each process was cataloged, I started to identify categories that these flow deltas, or differences, occurred in. These categories include UI component styling, language differences, and error handling discrepancies as pictured below.</p>
+            
+                <div className={styles.imgWrapper}>
+                    <img style={{width: '1000px'}} alt="High level view of flow delta Miro board" src={deltaBig}></img>
+                </div>
             </div>
 
-            <div className={styles.imgWrapper}>
-                <img style={{width: '1000px'}} alt="High level view of catalog Miro board" src={catalogBig}></img>
-            </div>
-
-            <div className={styles.imgWrapper}>
-                <img alt="Lower level view of catalog Miro board" src={catalogMedium}></img>
-            </div>
-
-            <div className={styles.projectDescription}>
-                <p>After each process was cataloged, I started to identify categories that these flow deltas, or differences, occurred in. These categories include UI component styling, language differences, and error handling discrepancies as pictured below</p>
-            </div>
-
-            <div className={styles.imgWrapper}>
-                <img style={{width: '1000px'}} alt="High level view of flow delta Miro board" src={deltaBig}></img>
-            </div>
 
             {/*ACCOUNT CREATION PASSWORD RESTRICTIONS*/}
-            <h2>Account creation password acceptance delta analysis</h2>
-            <div className={styles.imgWrapper}>
-                <img  style={{width: '800px'}} alt="Account creation password acceptance deltas" src={passwordError}></img>
-            </div>
-            <div className={styles.projectDescription}>
+                <div className={styles.projectDescription}>
+                <h2>Account creation password acceptance delta analysis</h2>
                 <p><b>Key deltas</b></p>
+                <div className={styles.imgWrapper}>
+                    <img  style={{width: '800px'}} alt="Account creation password acceptance deltas" src={passwordError}></img>
+                </div>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         <li>Password restrictions vary between domains.</li>
                         <li>Sometimes all error messages are shown at once, other times only one is shown at a time.</li>
                     </ul>
                 </div>
-                <p><b>Suggested improvements</b></p>
+                <p><b>Suggested improvements and proposed wireframe</b></p>
+                <div className={styles.imgWrapper}>
+                    <img  style={{width: '800px'}} alt="CTA UI styling deltas" src={createaccount}></img>
+                </div>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         <li>Create a set of standardized, secure password acceptance rules.</li>
@@ -88,11 +94,11 @@ const ProjectTeradata = () => {
 
             {/*CTA UI STYLING DELTAS*/}
             <h2>Create account call to action delta analysis</h2>
-            <div className={styles.imgWrapper}>
-                <img  style={{width: '800px'}} alt="CTA UI styling deltas" src={ctaDelta}></img>
-            </div>
             <div className={styles.projectDescription}>
                 <p><b>Key deltas</b></p>
+                <div className={styles.imgWrapper}>
+                    <img  style={{width: '800px'}} alt="CTA UI styling deltas" src={ctaDelta}></img>
+                </div>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         <li>There are 4 different ways that "Create account" is phrased.</li>
@@ -100,7 +106,10 @@ const ProjectTeradata = () => {
                         <li>There are 3 different CTA placement options.</li>
                     </ul>
                 </div>
-                <p><b>Suggested improvements</b></p>
+                <p><b>Suggested improvements and proposed wireframe</b></p>
+                <div className={styles.imgWrapper}>
+                    <img  style={{width: '800px'}} alt="CTA UI styling deltas" src={createaccounterror}></img>
+                </div>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         <li>Standardized language: Use "Create account" only.</li>
