@@ -12,6 +12,11 @@
     padding: 2rem;
 }
 
+.skillContainer {
+    max-width:70%;
+}
+
+
 .aboutHeader {
     padding-top:2rem;
 }
@@ -31,12 +36,16 @@
     text-align:center;
     color:white;
     font-family: var(--body-font);
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
 }
 .skill span {
     background-color:var(--primary);
     border-radius:30px;
     padding: 10px 20px 10px 20px;
     margin:5px;
+    white-space: nowrap;
 }
 
 .courses li::before {

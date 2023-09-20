@@ -31,7 +31,7 @@ const About = () => {
             </p>
             <h1 className={styles.Header}>My Technical Skills</h1>
 
-            <Container>
+            <Container className={styles.skillContainer}>
                 <Row className={styles.skillTitle}><p>Design Skills</p></Row>
                 <Row className="justify-content-center">
                     <div className={styles.skill}>
@@ -67,6 +67,7 @@ const About = () => {
                     <div className={styles.skill}>
                         <span>React</span>
                         <span>Angular</span>
+                        <span>Lit Dev</span>
                         <span>Git</span>
                     </div>
                 </Row>

@@ -25,7 +25,7 @@ const ProjectTeradata = () => {
             
         <div class={styles.projectWrapper}>
             <div className={styles.imgWrapper}>
-                <img style={{width: '100px'}} alt="Teradata logo" src={logo}></img>
+                <img style={{width: '150px'}} alt="Teradata logo" src={logo}></img>
             </div>
             <h1>Teradata UX Design Internship Projects</h1>
             <div className={styles.projectDescription}>
@@ -49,7 +49,7 @@ const ProjectTeradata = () => {
                 <p>To begin, I cataloged the account creation, login, and password recovery flows for each of the 14 web domains. I used a Miro board and documented each step of each flow, beginning to identify deviations or mistakes in each flow.</p>
            
                 <div className={styles.imgWrapper}>
-                    <img style={{width: '1000px'}} alt="High level view of catalog Miro board" src={catalogBig}></img>
+                    <img  alt="High level view of catalog Miro board" src={catalogBig}></img>
                 </div>
 
                 <p>Below is an example of a board created for a single domain. It tracks the user flow through account creation, login, and password recovery.</p>
