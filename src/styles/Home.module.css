@@ -17,5 +17,6 @@
     }
     .cards {
         align-items:center;
+        padding-top: 5rem;
     }
 }

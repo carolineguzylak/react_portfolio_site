@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import ProjectCardData from '../components/ProjectCardData';
 import ProjectCard from '../components/ProjectCard';
 
-// import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
 
