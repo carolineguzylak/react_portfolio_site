@@ -51,12 +51,14 @@ const ProjectTeradata = () => {
                 <div className={styles.imgWrapper}>
                     <img  alt="High level view of catalog Miro board" src={catalogBig}></img>
                 </div>
+                <p className={styles.subtext}>High level view of domain catalog</p>     
 
                 <p>Below is an example of a board created for a single domain. It tracks the user flow through account creation, login, and password recovery.</p>
 
                 <div className={styles.imgWrapper}>
                     <img alt="Lower level view of catalog Miro board" src={catalogMedium}></img>
                 </div>
+                <p className={styles.subtext}>Each column follows the flow of one of the following: Account creation, login, or password reset.</p>  
 
                 <p>After each process was cataloged, I started to identify categories that these flow deltas, or differences, occurred in. These categories include UI component styling, language differences, and error handling discrepancies as pictured below.</p>
             
