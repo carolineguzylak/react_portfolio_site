@@ -103,11 +103,19 @@ const ProjectCellDogs = () => {
 
                 <p><b>The results:</b> Our NPO representative was able to complete all of the tasks successfully, but had a few requests for design changes:</p>
                 <p>1. Key facility contacts should be shown for each entry in the facilities table.</p>
-                <img style={{width: '90%'}} alt="Facilities page amendments" src={facilities}></img>
+                <div className={styles.imgWrapper}>
+                    <img style={{width: '90%'}} alt="Facilities page amendments" src={facilities}></img>
+                </div>
+                
                 <p>2. Under each dog's details, the specific unit they trained under at their facility should be displayed.</p>
-                <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage}></img>
+                <div className={styles.imgWrapper}>
+                    <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage}></img>
+                </div>
+                
                 <p>3. The dog's age should not be its actual age, but the age of graduation from the Cell Dogs program.</p>
-                <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage2}></img>
+                <div className={styles.imgWrapper}>
+                    <img style={{width: '90%'}} alt="Dog page amendments" src={dogpage2}></img>
+                </div>
 
                 <p>After making these changes, we gained full approval from Cell Dogs and prepared to finalize the product.</p>
             </div>
