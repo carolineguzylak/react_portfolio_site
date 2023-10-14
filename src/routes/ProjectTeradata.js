@@ -148,14 +148,14 @@ const ProjectTeradata = () => {
                 </div>
                 <p className={styles.subtext}>Color palettes assigned to Material 3 color roles and custom Teradata roles</p>   
 
-                <p>After assigning these newly generated colors to Figma variables, I began applying these colors to Teradata design components and pages. I also added code syntax properties to these Figma variables according to developer requested naming conventions for easy dev use.</p>
+                <p>After assigning these newly generated colors to Figma variables, I began applying these colors to Teradata design components and pages. I also added code syntax properties to these Figma variables according to developer-requested naming conventions for easy dev use.</p>
 
                 <div className={styles.demoVideo}>
                     <iframe title="Component testing" width="900" height="550" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FicwFl2Av5K1RCJC1kkDeTW%2F%255BPortfolio%255D-M3-Colors%3Ftype%3Ddesign%26node-id%3D1%253A21318%26mode%3Ddesign%26t%3DPXx17IZ3BSZzbzPQ-1" allowfullscreen></iframe>
                 </div>
                 <p className={styles.subtext}>Component testing - Comparing original colors to new color palettes</p> 
 
-                <p>I repeatedly showcased these designs and received feedback from the UX team and made adjustments accordingly. The final product consisted of the colors below</p>
+                <p>I repeatedly showcased these designs and received feedback from the UX team and made adjustments accordingly. The final product consisted of the colors below:</p>
 
                 <div className={styles.imgWrapper}>
                     <img  style={{width: '800px'}} alt="Color use cases" src={usecases}></img>

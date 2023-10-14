@@ -63,7 +63,7 @@ const ProjectCellDogs = () => {
                 <p>My team held a session to research existing database product in order to determine the best way to display and edit the NPO's data. We decided to include these key features in our designs:</p>
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
-                        <li>Color coded chips that are applied to each dog. These would indicate tags like if the dog had graduated the program or if the dog had been adopted.</li>
+                        <li>Color-coded chips that are applied to each dog. These chips indicate categories like adoption or graduation status.</li>
                         <li>Database filters contained in a side-sheet. These would allow users to sort through the dogs by checking off certain filters.</li>
                         <li>A profile view for each individual dog, where their detailed data can be viewed and edited.</li>
                     </ul>
@@ -115,7 +115,7 @@ const ProjectCellDogs = () => {
             <div className={styles.projectDescription}>
                 <h2>User manual</h2>
                 <p>We created a user manual that Cell Dogs could refer to if they ever needed help using our software. This manual was created in Gitbook and contains step-by-step instructions on how to perform main functions, such as 'How to add a new dog' or 'How to edit a dog's information.' </p>
-                <p>This user manual cannot be shared publically due to it containing sensitive internal information.</p>
+                <p>This user manual cannot be shared publically due to the fact it contains sensitive internal information.</p>
             </div>
 
             <div className={styles.projectDescription}>

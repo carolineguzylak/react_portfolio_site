@@ -107,25 +107,24 @@ const ProjectZotdiet = () => {
                 <div className={styles.listWrapper}>
                     <ul className={styles.projectUl}>
                         {/* MAKE THESE INTO DROPDOWNS WITH MORE DETAILS */}
-                        <li>Students want increased awareness about their dietary restrictions on campus</li>
+                        <li>Students want increased awareness about their dietary restrictions on campus.</li>
                         <li>Students struggle with a lack of access to suitable foods for their diet on campus.</li>
-                        <li>Student often faced negative social implications while trying to navigate their diets.</li>
+                        <li>Students often faced negative social implications while trying to navigate their diets.</li>
                     </ul>
                 </div>
 
                 <p>Our research has revealed new insights into the experiences of students with dietary restrictions at
                      UCI that we can use to answer our design question. 
-                    We discovered that participants shared pain points regarding their dietary experience in three key areas: 
-                    <b>awareness, accessibility and social settings.</b> Existing solutions are insufficient because they 
-                    cater to specific dietary restrictions, and leave others out. We will accomodate a wide variety of 
-                    diets the UCI area specifically.</p>
+                    Participants shared pain points regarding their dietary experience in three key areas: 
+                    <b>awareness, accessibility and social settings.</b> Furthermore, existing solutions are insufficient because they 
+                    cater to specific dietary restrictions, and leave others out. Our solution will accomodate for all diet plans.</p>
 
                 <a className={styles.button} href="https://docs.google.com/document/d/1H4d6S1Coa8gITBoI7xTTienTpeXJciVcWl_zIsLdXEM/edit?usp=sharing">Raw interview data and encoding</a>
             </div>
 
             <div className={styles.projectDescription}>
                 <h2>The Prototype</h2>
-                <p className={styles.subtext}>Based on the needs of our users determined by our interviews, we decided that the three main functions of our prototype would be:</p>
+                <p className={styles.subtext}>Based on the needs of our users that were determined by our interviews, we decided that the three main functions of our prototype would be:</p>
             </div>
 
 
@@ -136,7 +135,7 @@ const ProjectZotdiet = () => {
 
 
             <div className={styles.subsection}>
-                <h3>Low fidelity prototype created for user testing</h3>
+                <h3>Low-fidelity prototype created for user testing</h3>
             </div>
 
             <div className={styles.imgWrapper}>

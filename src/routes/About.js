@@ -18,13 +18,13 @@ const About = () => {
             <img src={profile} alt='Caroline Guzylak' className={styles.profilePic}></img>
             <h1 className={styles.aboutHeader}>About me</h1>
             <p className={styles.aboutP}>
-            Hi, I’m Caroline Guzylak. I’m a fourth-year student at UC Irvine studying Informatics with a specialization in Human-Computer Interaction, as well as a minor in Computer Science. I take pride in my well-rounded skill set that consists of deep design knowledge, technical ability, and project management skills. I’m a passionate logical creative with a strong ability to understand my users and their needs. I have a love for challenge and experimentation, and I always seek growth.
+            Hi, I’m Caroline Guzylak. I’m a fourth-year student at UC Irvine studying Informatics with a specialization in Human-Computer Interaction, as well as a minor in Computer Science. I take pride in my well-rounded skill set that consists of deep design knowledge, technical ability, and project management skills. I’m a passionate, logical creative with a strong ability to understand my users and their needs. I have a love for challenge and experimentation, and I always seek growth.
             </p>
             <p className={styles.aboutP}>
             I am intimately familiar with UX design processes and have employed them in each of my projects. I take initiative to ensure that the work I deliver is top-quality.
             </p >
             <p className={styles.aboutP}>
-            Currently, I am employed as a UX intern at Teradata where I am making impactful contributions to design and product work. 
+            Currently, I am employed as a UI/UX Designer at the UC Irvine Student and Events Center. 
             </p >
             <p className={styles.aboutP}>
                 I designed and developed this site myself using React.
