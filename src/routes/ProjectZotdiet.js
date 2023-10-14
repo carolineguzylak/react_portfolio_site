@@ -116,7 +116,7 @@ const ProjectZotdiet = () => {
                 <p>Our research has revealed new insights into the experiences of students with dietary restrictions at
                      UCI that we can use to answer our design question. 
                     Participants shared pain points regarding their dietary experience in three key areas: 
-                    <b>awareness, accessibility and social settings.</b> Furthermore, existing solutions are insufficient because they 
+                    <b> awareness, accessibility and social settings.</b> Furthermore, existing solutions are insufficient because they 
                     cater to specific dietary restrictions, and leave others out. Our solution will accomodate for all diet plans.</p>
 
                 <a className={styles.button} href="https://docs.google.com/document/d/1H4d6S1Coa8gITBoI7xTTienTpeXJciVcWl_zIsLdXEM/edit?usp=sharing">Raw interview data and encoding</a>
