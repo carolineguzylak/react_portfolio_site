@@ -128,14 +128,14 @@ const ProjectZotdiet = () => {
             </div>
 
 
-            <h3>Early prototype sketches</h3>
+            <h3>Early Prototype Sketches</h3>
             <div className={styles.imgWrapper}>
                 <img className={styles.imgPrototype} alt="Early zotdiet sketches" src={zotdietSketches}></img>
             </div>
 
 
             <div className={styles.subsection}>
-                <h3>Low-fidelity prototype created for user testing</h3>
+                <h3>Low-Fidelity Prototype Created for User Testing</h3>
             </div>
 
             <div className={styles.imgWrapper}>
